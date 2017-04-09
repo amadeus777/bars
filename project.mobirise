@@ -832,7 +832,7 @@
             }
           },
           "title1": "Bootstrap 4",
-          "subtitle1": "<font face=\"Oswald, sans-serif\"><span style=\"font-style: normal;\"><b>Внедрение системы автоматического регулирования давления</b></span></font>",
+          "subtitle1": "",
           "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
@@ -864,7 +864,7 @@
             }
           },
           "title3": "Web Fonts",
-          "subtitle3": "<span style=\"font-style: normal;\"><b>Внедрение системы автоматического регулирования давления</b></span>",
+          "subtitle3": "",
           "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
@@ -921,6 +921,10 @@
             },
             ".mbr-cards-col:nth-child(odd) .card-subtitle": {
               "color": "#000000"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-subtitle SPAN": {
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
             }
           }
         },

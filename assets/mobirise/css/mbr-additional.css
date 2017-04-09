@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,700);
 
 
@@ -488,6 +489,7 @@ h6,
 
 
 
+
 #menu-h .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -614,6 +616,9 @@ h6,
 }
 #features1-r .mbr-cards-col:nth-child(odd) .card-subtitle {
   color: #000000;
+}
+#features1-r .mbr-cards-col:nth-child(odd) .card-subtitle SPAN {
+  font-family: 'Roboto Condensed', sans-serif;
 }
 #msg-box8-u .mbr-section-title,
 #msg-box8-u p {
