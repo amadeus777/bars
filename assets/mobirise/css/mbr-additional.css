@@ -491,16 +491,16 @@ h6,
 #header1-w .mbr-section-lead SPAN {
   font-size: 46px;
 }
-#content8-p .mbr-section-title,
-#content8-p p {
+#content8-26 .mbr-section-title,
+#content8-26 p {
   text-align: right;
   color: #fff;
 }
-#content8-p P {
+#content8-26 P {
   text-align: left;
   font-size: 25px;
   font-family: 'Oswald', sans-serif;
-  color: #000000;
+  color: #140830;
 }
 #msg-box8-u .mbr-section-title,
 #msg-box8-u p {
@@ -518,6 +518,9 @@ h6,
 #features7-n .iconbox {
   background-color: #0b1049;
   border-color: #0b1049;
+}
+#features7-n H4 {
+  color: #000000;
 }
 #features7-o .card-subtitle {
   color: #bcbcbc;
