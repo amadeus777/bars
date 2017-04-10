@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 79,
+    "uniqCompNum": 80,
     "versionPublish": "3.12.1",
     "favicon": "",
     "noImageResize": ""
@@ -189,47 +189,22 @@
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR WINDOWS</a> "
         },
         {
-          "_inherit": "content5",
-          "_styles": {
-            ".mbr-section-title, p": {
-              "text-align": "right",
-              "color": "#fff"
-            },
-            "P": {
-              "text-align": "left",
-              "font-size": "25px",
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
-              "color": "#000000"
-            }
-          },
           "_tags": [
             "Theme"
           ],
-          "_name": "content8",
-          "_anchor": "content8-26",
+          "_name": "content1",
+          "_anchor": "content1-27",
           "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "file:///C:/Users/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80/AppData/Local/Mobirise.com/Mobirise/projectData/mbr-4-2000x1334.jpg",
-            "bgColor": "#efefef",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "width": 1280,
-              "height": 720,
-              "url": "https://www.youtube.com/embed/JHRiaKEYeis?rel=0&amp;showinfo=0&autoplay=0&loop=0"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.3",
-            "overlayColor": "#15072b",
-            "showTitle": true,
-            "showCaption": true
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgColor": "#fff"
           },
-          "title": "",
-          "caption": "<p><b>ТОО Барс Инжиниринг предлагает интегрированные системы управления и оптимизации для всех видов производств, в том числе относящихся к особо опасным:</b></p><p><span style=\"line-height: 1.5;\">- нефтегазодобывающие предприятия;</span></p><p><span style=\"line-height: 1.5;\">- предприятия, осуществляющих транспорт нефти и газа по трубопроводным системам.</span></p><p>- нефтеперерабатывающие производства;&nbsp;</p><p>- химические предприятия;</p><p>- пищевые производства.</p>"
+          "text": "<p><b>ТОО Барс Инжиниринг предлагает интегрированные системы управления и оптимизации для всех видов производств, в том числе относящихся к особо опасным:</b></p><p><br></p><p>- нефтегазодобывающие предприятия;</p><p><br></p><p>- предприятия, осуществляющих транспорт нефти и газа по трубопроводным системам.</p><p><br></p><p>- нефтеперерабатывающие производства;&nbsp;</p><p><br></p><p>- химические предприятия;</p><p><br></p><p>- пищевые производства.</p>",
+          "_styles": {
+            "P": {
+              "font-size": "20px"
+            }
+          }
         },
         {
           "_styles": {

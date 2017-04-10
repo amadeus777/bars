@@ -7,7 +7,6 @@
 
 
 
-
 body,
 input,
 textarea,
@@ -491,16 +490,8 @@ h6,
 #header1-w .mbr-section-lead SPAN {
   font-size: 46px;
 }
-#content8-26 .mbr-section-title,
-#content8-26 p {
-  text-align: right;
-  color: #fff;
-}
-#content8-26 P {
-  text-align: left;
-  font-size: 25px;
-  font-family: 'Oswald', sans-serif;
-  color: #000000;
+#content1-27 P {
+  font-size: 20px;
 }
 #msg-box8-u .mbr-section-title,
 #msg-box8-u p {
