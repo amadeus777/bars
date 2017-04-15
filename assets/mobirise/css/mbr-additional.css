@@ -500,7 +500,6 @@ h6,
 
 
 
-
 #ext_menu-d .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -591,18 +590,14 @@ h6,
   font-size: 46px;
   font-family: 'Ubuntu', sans-serif;
 }
-#header3-w .mbr-section-title,
-#header3-w .mbr-section-subtitle {
-  text-align: center;
+#msg-box8-x .mbr-section-title,
+#msg-box8-x p {
+  color: #fff;
 }
-#header3-w H3 {
-  font-size: 20px;
+#msg-box8-x .mbr-section-title {
+  color: #000000;
 }
-#header3-v .mbr-section-title,
-#header3-v .mbr-section-subtitle {
-  text-align: center;
-}
-#header3-v H3 {
+#msg-box8-x .lead P {
+  color: #000000;
   font-size: 18px;
-  font-family: 'Lora', serif;
 }
