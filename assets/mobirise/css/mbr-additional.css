@@ -3,6 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,700);
 
 
@@ -420,6 +421,7 @@ h6,
 }
 #ext_menu-4 .navbar-caption {
   color: #ffffff;
+  font-size: 22px;
 }
 #ext_menu-4 .navbar-toggler {
   color: #ffffff;
@@ -493,11 +495,13 @@ h6,
 }
 
 
+
 #ext_menu-d .hide-buttons .nav-btn {
   display: none !important;
 }
 #ext_menu-d .navbar-caption {
   color: #ffffff;
+  font-size: 22px;
 }
 #ext_menu-d .navbar-toggler {
   color: #ffffff;
@@ -557,6 +561,11 @@ h6,
 #header1-h .mbr-section-lead {
   font-size: 32px;
   font-family: 'Roboto Condensed', sans-serif;
+}
+#header1-h .mbr-section-title SPAN {
+  color: #ffffff;
+  font-size: 84px;
+  font-family: 'Slabo 27px', serif;
 }
 #features1-l .striped .mbr-cards-col:nth-child(2n+1) {
   background-color: #000000;

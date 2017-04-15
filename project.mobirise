@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "NewSite-04-15_1409",
-    "currentPage": "Alcapone.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -105,7 +105,8 @@
               "display": "none !important"
             },
             ".navbar-caption": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-size": "22px"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
@@ -158,8 +159,8 @@
             "fontHoverColor": "@primaryColor",
             "transparent": true,
             "sticky": false,
-            "logo": false,
-            "showBrand": false,
+            "logo": true,
+            "showBrand": true,
             "collapsed": false,
             "hideButtons": true
           },
@@ -179,7 +180,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KACHNA Al Capone</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">LOUNGE BAR</a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">О БАРЕ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Alcapone.html\">Al Capone</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://barseng.kz/menu.pdf\" target=\"_blank\">МЕНЮ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://kachina.com\">DOWNLOAD</a></li>"
         },
         {
@@ -303,7 +304,7 @@
             "bgColor": "#28324e",
             "bgColorRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.8",
+            "overlayOpacity": "0.5",
             "overlayColor": "#000000",
             "googleMap": {
               "address": "Kazakhstan, Almaty\nCity, Abay 125",
@@ -334,7 +335,8 @@
               "display": "none !important"
             },
             ".navbar-caption": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-size": "22px"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
@@ -387,8 +389,8 @@
             "fontHoverColor": "@primaryColor",
             "transparent": true,
             "sticky": false,
-            "logo": false,
-            "showBrand": false,
+            "logo": true,
+            "showBrand": true,
             "collapsed": false,
             "hideButtons": true
           },
@@ -408,7 +410,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KACHNA Al Capone</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">LOUNGE BAR</a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">О БАРЕ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Alcapone.html\">Al Capone</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://barseng.kz/menu.pdf\" target=\"_blank\">МЕНЮ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://kachina.com\">DOWNLOAD</a></li>"
         },
         {
@@ -438,14 +440,20 @@
             "showText": true,
             "showButtons": false
           },
-          "title": "KACHNA Al Capone<div><br></div>",
-          "text": "Бар для харизматичных гангстеров",
+          "title": "<span style=\"font-size: 4.39rem; line-height: 1.1;\">KACHNA Al Capone&nbsp;</span><br><div><br></div>",
+          "text": "Lo",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
           "_styles": {
             ".mbr-section-lead": {
               "font-size": "32px",
               "font-family": "'Roboto Condensed', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            },
+            ".mbr-section-title SPAN": {
+              "color": "#ffffff",
+              "font-size": "84px",
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px"
             }
           }
         },
@@ -826,7 +834,7 @@
             "bgColor": "#28324e",
             "bgColorRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.8",
+            "overlayOpacity": "0.5",
             "overlayColor": "#000000",
             "googleMap": {
               "address": "Kazakhstan, Almaty\nCity, Abay 125",
