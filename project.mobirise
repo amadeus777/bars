@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 30,
+    "uniqCompNum": 31,
     "versionPublish": "3.12.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
@@ -622,8 +622,8 @@
           "_name": "msg-box8",
           "_anchor": "msg-box8-k",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "5",
+            "paddingBottom": "5",
             "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1502.jpg",
@@ -653,49 +653,11 @@
           "_name": "content1",
           "_anchor": "content1-i",
           "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
+            "paddingTop": "2",
+            "paddingBottom": "0",
             "bgColor": "#fff"
           },
-          "text": "<p>Пространство заведения гармонично разделено на несколько зон: непосредственно бар, лаунж-залы со столиками и диванами и специальный «тайный» бар.</p><p><br></p><p>Брутальный интерьер заведения полностью отражает концепцию: кирпичная кладка, стилизованные лампы, деревянные ящики и бочки из-под виски, стулья с обивкой из натуральной грубой кожи. Атмосферу создают стильные интерьерные акценты: антикварное пианино, музыкальный автомат, саксофон, переделанный в действующий пивной кран, на стенах – настоящие пулеметы Томпсона (известные как Томми-ган), даже ручки дверей переделаны из боевых пистолетов той эпохи. Отдельно стоит сказать о больших настенных часах в баре – сделанные на заказ, они идут в обратную сторону, что отлично подчеркивает концепцию бара.</p><p><br></p><p>По выходным и четвергам играет разноплановая живая музыка: это может быть джаз, популярные cover-группы или бодрый рок-н-ролл, по пятницам и субботам за пульт встаёт диджей.&nbsp;</p><p><br></p>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header1",
-          "_anchor": "header1-e",
-          "_params": {
-            "parallax": true,
-            "bgImageRadio": false,
-            "showArrow": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#a07e49",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "width": 1280,
-              "height": 720,
-              "url": "https://www.youtube.com/embed/KRNBLQYTwz4?rel=0&amp;showinfo=0&autoplay=0&loop=0"
-            },
-            "bgVideoRadio": true,
-            "overlay": true,
-            "overlayOpacity": "0.6",
-            "overlayColor": "#000000",
-            "contentAlign": "center",
-            "showTitle": false,
-            "showText": true,
-            "showButtons": false
-          },
-          "title": "FULL SCREEN INTRO",
-          "text": "Для постоянных гостей действует программа лояльности.<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
-          "_styles": {
-            ".mbr-section-lead": {
-              "font-size": "46px",
-              "font-family": "'Ubuntu', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
-            }
-          }
+          "text": "<p>Пространство заведения гармонично разделено на несколько зон: непосредственно бар, лаунж-залы со столиками и диванами и специальный «тайный» бар.</p><p><br></p><p>Брутальный интерьер заведения полностью отражает концепцию: кирпичная кладка, стилизованные лампы, деревянные ящики и бочки из-под виски, стулья с обивкой из натуральной грубой кожи. Атмосферу создают стильные интерьерные акценты: антикварное пианино, музыкальный автомат, саксофон, переделанный в действующий пивной кран, на стенах – настоящие пулеметы Томпсона (известные как Томми-ган), даже ручки дверей переделаны из боевых пистолетов той эпохи. Отдельно стоит сказать о больших настенных часах в баре – сделанные на заказ, они идут в обратную сторону, что отлично подчеркивает концепцию бара.</p><p><br></p><p>По выходным и четвергам играет разноплановая живая музыка: это может быть джаз, популярные cover-группы или бодрый рок-н-ролл, по пятницам и субботам за пульт встаёт диджей.&nbsp;</p>"
         },
         {
           "_styles": {
@@ -728,7 +690,7 @@
           "_name": "gallery2",
           "_params": {
             "paddingTop": "0",
-            "paddingBottom": 4,
+            "paddingBottom": "1",
             "images": [
               {
                 "tags": "Awesome",
@@ -738,7 +700,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/toohtoeiufw-1-2000x1345-800x538.jpg",
                 "image": "@PROJECT_PATH@/assets/images/toohtoeiufw-1-2000x1345.jpg",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Responsive",
@@ -808,10 +770,10 @@
                 "thumb": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333-800x533.jpg",
                 "image": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               }
             ],
-            "spacing": 0,
+            "spacing": "1",
             "showText": false,
             "filter": false,
             "bgColor": "fff",
@@ -822,6 +784,67 @@
           "_anchor": "gallery2-n",
           "articleLayout": false,
           "allItem": "All"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-e",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "showArrow": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/KRNBLQYTwz4?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": "0.6",
+            "overlayColor": "#000000",
+            "contentAlign": "center",
+            "showTitle": false,
+            "showText": false,
+            "showButtons": false
+          },
+          "title": "FULL SCREEN INTRO",
+          "text": "",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
+          "_styles": {
+            ".mbr-section-lead": {
+              "font-size": "46px",
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-size": "25px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-u",
+          "_params": {
+            "paddingTop": "5",
+            "paddingBottom": "5",
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "Для постоянных гостей действует программа лояльности",
+          "meta": ""
         },
         {
           "_tags": [
