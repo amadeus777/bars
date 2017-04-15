@@ -590,10 +590,10 @@ h6,
   font-size: 46px;
   font-family: 'Ubuntu', sans-serif;
 }
-#header3-u .mbr-section-title,
-#header3-u .mbr-section-subtitle {
+#header3-v .mbr-section-title,
+#header3-v .mbr-section-subtitle {
   text-align: center;
 }
-#header3-u H3 {
+#header3-v H3 {
   font-size: 20px;
 }

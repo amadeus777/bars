@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 31,
+    "uniqCompNum": 32,
     "versionPublish": "3.12.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
@@ -836,7 +836,7 @@
             "Theme"
           ],
           "_name": "header3",
-          "_anchor": "header3-u",
+          "_anchor": "header3-v",
           "_params": {
             "paddingTop": "5",
             "paddingBottom": "5",
