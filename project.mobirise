@@ -1,15 +1,15 @@
 {
   "settings": {
+    "name": "NewSite-04-15_1409",
     "currentPage": "index.html",
-    "name": "Автоматизация производственных процессов",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
       "styling": {
-        "primaryColor": "#b8312f",
+        "primaryColor": "#c0a375",
         "secondaryColor": "#bfcecb",
-        "successColor": "#41a85f",
-        "infoColor": "#2b0680",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
         "warningColor": "#f3c649",
         "dangerColor": "#f28281",
         "titleFont": "Montserrat",
@@ -17,25 +17,89 @@
         "textFont": "Raleway",
         "isRoundedButtons": false,
         "isAnimatedOnScroll": true,
-        "isScrollToTopButton": true,
+        "isScrollToTopButton": false,
         "isRtl": false
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 80,
+    "uniqCompNum": 26,
     "versionPublish": "3.12.1",
-    "favicon": "",
-    "noImageResize": ""
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
-    "index.html": {
+    "Alcapone.html": {
       "settings": {
-        "title": "Автоматизация производств",
-        "meta_descr": "Системы для автоматизации и контроля производственных процессов",
-        "order": 1
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 2
       },
       "components": [
         {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-c",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/pub5-2000x707.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.8",
+            "overlayColor": "#b8312f",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "KACHNA Al Capone",
+          "text": "концептуальный бар в стиле американской эпохи «сухого закона».",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-8",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
+          },
+          "text": "<blockquote>« KACHNA Al Capone» – концептуальный бар в стиле американской эпохи «сухого закона», расположенный в самом сердце Алматы. Здесь все продумано таким образом, чтобы гости гарантированно погрузились в атмосферу лихих и харизматичных гангстеров.</blockquote>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_anchor": "content6-9",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
+          },
+          "text1": "В &nbsp;13 лет Капоне бросил школу и устроился работать помощником мясника в Бруклине. Спустя некоторое время он вступает в одну из группировок на должность посыльного. Боссом этой группировки был его дядя Джон Торрио.&nbsp;<span style=\"font-size: 1.07rem; line-height: 1.5;\">16 января 1920 года был принят \"сухой закон\", кардинально повлиявший на судьбы многих руководителей преступных группировок. Так Джон Торрио переезжает в столицу бутлегерства - Чикаго в качестве будущего наследника своего дяди Джима Колосимо.&nbsp;</span>",
+          "text2": "<p>&nbsp;Позже переезжает туда и сам Аль Капоне по приглашению своего дяди. Становиться его помощником. Работа кипела. Дуэту подчинялись больше семисот человек. В 1925 году Торрио уходит из бизнеса и передает все дела Капоне, кумиром которого являлся Бенито Муссолини. Любовь к красивой жизни: женщины, хорошая еда, напитки, бриллианты, шелковое белье и все в том же духе. Капоне любил лесть и щедро одаривал льстецов. Он был королем жизни.</p>"
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
           "_styles": {
             ".hide-buttons .nav-btn": {
               "display": "none !important"
@@ -46,26 +110,29 @@
             ".navbar-toggler": {
               "color": "#ffffff"
             },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
             ".link, .dropdown-item": {
               "color": "#ffffff"
             },
             ".link": {
-              "font-size": "1rem"
+              "font-size": "0.75rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.083rem"
+              "font-size": "0.812rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0d0b27"
+              "background": "#000000"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#171442!important"
+              "background": "#000000!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#1b174e"
+              "background": "#000000"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -78,41 +145,31 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#b8312f!important"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__section": {},
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "color": "#c0a375!important"
             }
           },
-          "_name": "menu",
-          "_anchor": "menu-h",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-4",
           "_params": {
-            "bgColor": "#1b174e",
-            "fontSize": "1",
+            "bgColor": "#000000",
+            "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
+            "sticky": false,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": false,
+            "hideButtons": true
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-320x128.png",
+              "src": "@PROJECT_PATH@/assets/images/kapone-170x128.jpg",
               "height": 128,
               "alt": "Mobirise",
-              "link": "index.html",
+              "link": "",
               "title": "",
               "linkInNewWindow": false
             },
@@ -122,25 +179,8 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">главная</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"company.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">компания</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"company.html\">О компании</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"lic.html\">Лицензии</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">услуги</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cayir.html\" aria-expanded=\"false\">САУиР</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cap.html\" aria-expanded=\"false\">САР</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"caykc.html\" aria-expanded=\"false\">САУ КЦ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"dmpc.html\" aria-expanded=\"false\">DMPC</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">наш опыт</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Референс лист Барс Инжиниринг</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Референс лист CCS</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html#contacts3-s\">КОНТАКТЫ</a></li>"
-        },
-        {
-          "_name": "footer1",
-          "_anchor": "footer1-i",
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#06061b",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "Сделано web-студией&nbsp;<b>Amadeus</b>"
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KACHNA Al Capone</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">О БАРЕ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Al Capone</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://kachina.com/\">МЕНЮ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://kachina.com\">DOWNLOAD</a></li>"
         },
         {
           "_tags": [
@@ -148,88 +188,117 @@
           ],
           "_name": "header1",
           "_styles": {
-            ".mbr-section-lead": {
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
-              "color": "#ffffff",
-              "font-size": "30px"
-            },
             ".mbr-section-title": {
-              "font-size": "48px",
-              "color": "#ffffff"
-            },
-            ".mbr-section-lead SPAN": {
+              "font-family": "'Roboto Slab', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700",
               "font-size": "46px"
             }
           },
-          "_anchor": "header1-w",
+          "_anchor": "header1-1",
           "_params": {
             "parallax": true,
             "bgImageRadio": false,
-            "showArrow": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-3-2000x1334.jpg",
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
               "width": 1280,
               "height": 720,
-              "url": "https://www.youtube.com/embed/E4ps3M1uXhM?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+              "url": "https://www.youtube.com/embed/iYk-9ccokWo?rel=0&amp;showinfo=0&autoplay=0&loop=0"
             },
             "bgVideoRadio": true,
             "overlay": true,
-            "overlayOpacity": "0.5",
-            "overlayColor": "#150b2d",
+            "overlayOpacity": "0.7",
+            "overlayColor": "#000000",
             "contentAlign": "center",
             "showTitle": true,
-            "showText": false,
+            "showText": true,
             "showButtons": false
           },
-          "title": "<br>Разработка и внедрение систем управления производством с помощью средств автоматизации<br><br>",
-          "text": "<span style=\"font-style: normal;\">Разработка и внедрение систем управления производством с помощью средств автоматизации</span><b>&nbsp;</b><br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR WINDOWS</a> "
+          "title": "Погрузись в атмосферу ганстеров 30-х годов прошлого века",
+          "text": "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "content1",
-          "_anchor": "content1-27",
+          "_anchor": "content1-7",
           "_params": {
-            "paddingTop": "4",
-            "paddingBottom": "4",
+            "paddingTop": 1,
+            "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<p><b>ТОО Барс Инжиниринг предлагает интегрированные системы управления и оптимизации для всех видов производств, в том числе относящихся к особо опасным:</b></p><p><br></p><p>- нефтегазодобывающие предприятия;</p><p><br></p><p>- предприятия, осуществляющих транспорт нефти и газа по трубопроводным системам.</p><p><br></p><p>- нефтеперерабатывающие производства;&nbsp;</p><p><br></p><p>- химические предприятия;</p><p><br></p><p>- пищевые производства.</p>",
-          "_styles": {
-            "P": {
-              "font-size": "20px"
-            }
-          }
+          "text": "<p>И бар и кухня сочетают в себе американскую классику с итальянским колоритом под стать названию: виски и вермуты, пицца и бургеры. Меню в « KACHNA Al Capone» авторское и, как настоящий гангстер, хранит очень много секретов, некоторыми из которых могут поделиться с гостями. Например, необычный чесночный круассан готовится из специального сырного теста, а чтобы разгадать тайну одноименной «живой» пиццы с морепродуктами – ее надо попробовать. Кроме того, здесь есть пицца «Lego», которую можно «собрать» на свой вкус из понравившихся ингредиентов, топингов, сыров и соусов на классическом итальянском или слоеном тесте с моцареллой.</p><p><br></p><p>Оригинальная авторская коктейльная карта заслуживает особого внимания. Например, фирменный коктейль «Манхеттен» воспроизведен по подлинному рецепту той эпохи: ржаной виски, красный вермут и ангостура. Кстати, у него есть и «спутница» – оригинальный коктейль Мей Капоне (ром, руби порто, желток, лимон, мед, биттер), названный в честь супруги культового персонажа. Название каждой позиции выбрано не случайно: в карте можно найти «Синдикат», «Картель» и даже «От КГБ с любовью». Разумеется, в баре представлены и классические коктейли, большой выбор крепких напитков и ликеров, а также особая позиция «Озадачить бармена». Для ценителей пива – несколько сортов разливного, в том числе редкий миндальный эль.</p><p><br></p>"
         },
         {
           "_styles": {
             ".mbr-section-title, p": {
               "color": "#fff"
-            },
-            ".lead P": {
-              "text-align": "left"
-            },
-            ".mbr-section-title": {
-              "font-size": "24px"
             }
           },
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box8",
-          "_anchor": "msg-box8-u",
+          "_anchor": "msg-box8-a",
           "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "2",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/Tyuw-gnEGxI?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false
+          },
+          "title": "&nbsp;Коктели",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-b",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>Пространство заведения гармонично разделено на несколько зон: непосредственно бар, лаунж-залы со столиками и диванами и специальный «тайный» бар.</p><p><br></p><p>Брутальный интерьер заведения полностью отражает концепцию: кирпичная кладка, стилизованные лампы, деревянные ящики и бочки из-под виски, стулья с обивкой из натуральной грубой кожи. Атмосферу создают стильные интерьерные акценты: антикварное пианино, музыкальный автомат, саксофон, переделанный в действующий пивной кран, на стенах – настоящие пулеметы Томпсона (известные как Томми-ган), даже ручки дверей переделаны из боевых пистолетов той эпохи. Отдельно стоит сказать о больших настенных часах в баре – сделанные на заказ, они идут в обратную сторону, что отлично подчеркивает концепцию бара.</p><p><br></p><p>По выходным и четвергам играет разноплановая живая музыка: это может быть джаз, популярные cover-группы или бодрый рок-н-ролл, по пятницам и субботам за пульт встаёт диджей.&nbsp;</p><p><br></p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "36px"
+            }
+          },
+          "_anchor": "header1-3",
+          "_params": {
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1330.jpg",
-            "bgColor": "#F2F2F2",
+            "showArrow": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/val-2000x852.jpg",
+            "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -237,393 +306,30 @@
             "bgVideoRadio": false,
             "overlay": true,
             "overlayOpacity": "0.7",
-            "overlayColor": "#040c36",
+            "overlayColor": "#2b0680",
+            "contentAlign": "center",
             "showTitle": true,
-            "showText": false,
-            "showButton": false
-          },
-          "title": "При реализации проекта нами проводится весь комплекс работ:",
-          "text": "<p><br></p><p><br></p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
-        },
-        {
-          "_inherit": "features4",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".card-subtitle": {
-              "color": "#bcbcbc"
-            },
-            ".iconbox": {
-              "background-color": "#0b1049",
-              "border-color": "#0b1049"
-            },
-            "H4": {
-              "color": "#000000"
-            }
-          },
-          "_name": "features7",
-          "_anchor": "features7-n",
-          "_params": {
-            "iconsBgColor": "#0b1049",
-            "paddingTop": "2",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": 4,
-            "showImages": true,
-            "showTitles": true,
-            "showSubtitles": false,
-            "ShowTexts": true,
+            "showText": true,
             "showButtons": false
           },
-          "media1": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "linkInNewWindow": false,
-              "name": "search",
-              "family": "et-line",
-              "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#ffffff"
-            }
-          },
-          "title1": "Полное обследование объекта автоматизации",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "edit",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "title2": "Проектирование по стандартам РК",
-          "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media3": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "linkInNewWindow": false,
-              "name": "desktop",
-              "family": "et-line",
-              "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff"
-            }
-          },
-          "title3": "Разработка программного обеспечения",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media4": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "linkInNewWindow": false,
-              "name": "delivery",
-              "family": "MobiriseIcons",
-              "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff"
-            }
-          },
-          "title4": "Поставка аппаратных средств и оборудования",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media5": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "linegraph",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "title5": "Trendy Website Blocks",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media6": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "linegraph",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
-        },
-        {
-          "_inherit": "features4",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".card-subtitle": {
-              "color": "#bcbcbc"
-            },
-            ".iconbox": {
-              "background-color": "#0b1049",
-              "border-color": "#0b1049"
-            }
-          },
-          "_name": "features7",
-          "_anchor": "features7-o",
-          "_params": {
-            "iconsBgColor": "#0b1049",
-            "paddingTop": 2,
-            "paddingBottom": "2",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": 4,
-            "showImages": true,
-            "showTitles": true,
-            "showSubtitles": false,
-            "ShowTexts": true,
-            "showButtons": false
-          },
-          "media1": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "linkInNewWindow": false,
-              "name": "cart-full",
-              "family": "MobiriseIcons",
-              "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff"
-            }
-          },
-          "title1": "Строительно - монтажные работы",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media2": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "linkInNewWindow": false,
-              "name": "rocket",
-              "family": "MobiriseIcons",
-              "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff"
-            }
-          },
-          "title2": "Пуксконаладку и ввод в эксплуатацию",
-          "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media3": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "linkInNewWindow": false,
-              "name": "presentation",
-              "family": "et-line",
-              "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff"
-            }
-          },
-          "title3": "Комплексное обучение персонала заказчика",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "linegraph",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "title4": "Техническое сопровождение и обслуживание",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media5": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "linegraph",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "title5": "Trendy Website Blocks",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media6": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "linegraph",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts3",
-          "_anchor": "contacts3-s",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#0a0826",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/logo-265x106.png",
-              "class": "card-img-top",
-              "width": 265,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-logo-contacts3",
-              "link": "",
-              "size": 0
-            }
-          },
-          "text1": "Контакты:",
-          "media1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-company-contacts3",
-              "name": "phone",
-              "size": 0,
-              "family": "et-line"
-            }
-          },
-          "text2": "+7(701)714-19-29,",
-          "media2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-company-contacts3",
-              "name": "map-pin",
-              "size": 0,
-              "family": "et-line"
-            }
-          },
-          "text3": "+7(727)274-73-98",
-          "media3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-company-contacts3",
-              "name": "envelope",
-              "size": 0,
-              "family": "et-line"
-            }
-          },
-          "text4": "ccckz@mail.ru<br>",
-          "title1": "Категории",
-          "text5": "<p><br></p><li><a class=\"text-white\" href=\"#\">К</a>омпания</li><li><a class=\"text-white\" href=\"#\">Н</a>аш опыт</li><li><a class=\"text-white\" href=\"#\">У</a>слуги</li><br><p></p>",
-          "text6": "<strong>Contacts</strong><br><br><br>Тel./Fax: +7(727)274-73-98, <br>274-71-95,<br><br>Mob.: +7(701)714-19-29,<br>+7(777)002-00-49<br><br>E-mail: ccckz@mail.ru<br><br><br><strong>Address</strong><br>050057, Республика Казахстан,               г. Алматы, ул. М. Озтюрка, д.11а<br>",
-          "form": {
-            "title": "MESSAGE",
-            "action": "m3422810@gmail.com",
-            "alerts": {
-              "success": "Спасибо!"
-            },
-            "fields": {
-              "name": {
-                "title": "Name",
-                "visible": false,
-                "customTitle": "Name*"
-              },
-              "email": {
-                "title": "Email",
-                "visible": true,
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "title": "Phone",
-                "visible": false,
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Сообщение"
-              }
-            }
-          },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Отправить</a>"
+          "title": "Для постоянных гостей действует программа лояльности, потому что здесь ценят каждого ганстера.",
+          "text": "&nbsp;<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
         }
       ]
     },
-    "lic.html": {
+    "index.html": {
       "settings": {
-        "title": "Сертификаты",
-        "meta_descr": "Сертификаты",
-        "order": 2
+        "title": "Бар в Алматы",
+        "meta_descr": "Бары и пабы Алматы",
+        "order": 1
       },
       "components": [
         {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
           "_styles": {
             ".hide-buttons .nav-btn": {
               "display": "none !important"
@@ -634,26 +340,29 @@
             ".navbar-toggler": {
               "color": "#ffffff"
             },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
             ".link, .dropdown-item": {
               "color": "#ffffff"
             },
             ".link": {
-              "font-size": "1rem"
+              "font-size": "0.75rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.083rem"
+              "font-size": "0.812rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#010101"
+              "background": "#000000"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#100d19!important"
+              "background": "#000000!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#171223"
+              "background": "#000000"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -666,41 +375,31 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#b8312f!important"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__section": {},
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "color": "#c0a375!important"
             }
           },
-          "_name": "menu",
-          "_anchor": "menu-2",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-d",
           "_params": {
-            "bgColor": "#1b174e",
-            "fontSize": "1",
+            "bgColor": "#000000",
+            "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
+            "sticky": false,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": false,
+            "hideButtons": true
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-265x106.png",
+              "src": "@PROJECT_PATH@/assets/images/kapone-170x128.jpg",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "",
               "title": "",
               "linkInNewWindow": false
             },
@@ -710,57 +409,75 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">главная</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"company.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">компания</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"company.html\">О компании</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"lic.html\">Лицензии</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">услуги</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cayir.html\" aria-expanded=\"false\">САУиР</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cap.html\" aria-expanded=\"false\">САР</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"caykc.html\" aria-expanded=\"false\">САУ КЦ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"dmpc.html\" aria-expanded=\"false\">DMPC</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">наш опыт</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Референс лист Барс Инжиниринг</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Референс лист CCS</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html#contacts3-s\">КОНТАКТЫ</a></li>"
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KACHNA Al Capone</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">О БАРЕ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Al Capone</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://kachina.com/\">МЕНЮ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://kachina.com\">DOWNLOAD</a></li>"
         },
         {
-          "_styles": {
-            ".mbr-section-title, p": {
-              "color": "#fff"
-            }
-          },
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box8",
-          "_anchor": "msg-box8-x",
+          "_name": "header1",
+          "_anchor": "header1-h",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": "3",
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1334.jpg",
-            "bgColor": "#F2F2F2",
+            "showArrow": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/pub2-2000x1250.jpg",
+            "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/Tyuw-gnEGxI?rel=0&amp;showinfo=0&autoplay=0&loop=0"
             },
             "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.5",
-            "overlayColor": "#000000",
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
             "showTitle": true,
-            "showText": false,
-            "showButton": false
+            "showText": true,
+            "showButtons": false
           },
-          "title": "СЕРТИФИКАТЫ",
-          "text": "<p>Article header with background image and parallax effect.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+          "title": "KACHNA Al Capone<div><br></div>",
+          "text": "Бар для харизматичных гангстеров",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
+          "_styles": {
+            ".mbr-section-lead": {
+              "font-size": "32px",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            }
+          }
         },
         {
           "_tags": [
             "Theme"
           ],
-          "_name": "features3",
-          "_anchor": "features3-z",
+          "_name": "content1",
+          "_anchor": "content1-g",
           "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>И бар и кухня сочетают в себе американскую классику с итальянским колоритом под стать названию: виски и вермуты, пицца и бургеры. Меню в « KACHNA Al Capone» авторское и, как настоящий гангстер, хранит очень много секретов, некоторыми из которых могут поделиться с гостями. Например, необычный чесночный круассан готовится из специального сырного теста, а чтобы разгадать тайну одноименной «живой» пиццы с морепродуктами – ее надо попробовать. Кроме того, здесь есть пицца «Lego», которую можно «собрать» на свой вкус из понравившихся ингредиентов, топингов, сыров и соусов на классическом итальянском или слоеном тесте с моцареллой.</p><p><br></p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_anchor": "features1-l",
+          "_params": {
+            "columnsColor": "#000000",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "file:///C:/Users/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80/AppData/Local/Mobirise.com/Mobirise/projects/project-2017-04-06_012528/assets/images/mbr-2000x1328.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/img-20170319-172205-2000x2000.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
@@ -768,16 +485,16 @@
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "columns": "3",
+            "columns": 4,
             "showImages": true,
-            "showTitles": false,
-            "showSubtitles": false,
-            "ShowTexts": false,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
             "showButtons": true
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/sertificate-rk-600x848.png",
+              "src": "@PROJECT_PATH@/assets/images/323d0a21-34e6-40d7-8a92-a847ab2caed2-jpg-152x122-crop-152x122-max-q85-600x481.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -787,13 +504,13 @@
               "linkInNewWindow": false
             }
           },
-          "title1": "Bootstrap 4",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "title1": "Название",
+          "subtitle1": "состав",
+          "caption1": "Краткое описание блюда",
+          "button1": "<a data-app-btn=\"true\" href=\"about.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/sertificate-600x767.png",
+              "src": "@PROJECT_PATH@/assets/images/2824b2d0-a138-4de0-aead-1ec880fb8e8d-jpg-152x122-crop-152x122-max-q85-600x481.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -803,13 +520,13 @@
               "linkInNewWindow": false
             }
           },
-          "title2": "Responsive",
-          "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "title2": "Название",
+          "subtitle2": "состав",
+          "caption2": "Краткое описание блюда",
+          "button2": "<a data-app-btn=\"true\" href=\"about.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/sertificate-rk-600x848.png",
+              "src": "@PROJECT_PATH@/assets/images/couqnfx82vs-600x399.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -819,22 +536,26 @@
               "linkInNewWindow": false
             }
           },
-          "title3": "Web Fonts",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "title3": "Название",
+          "subtitle3": "состав",
+          "caption3": "Краткое описание блюда",
+          "button3": "<a data-app-btn=\"true\" href=\"about.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media4": {
             "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+              "src": "@PROJECT_PATH@/assets/images/5lagman-600x602.jpg",
               "class": "card-img-top",
               "width": 600,
-              "active": true
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             }
           },
-          "title4": "Unlimited Sites",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "title4": "Название",
+          "subtitle4": "состав",
+          "caption4": "Краткое описание блюда",
+          "button4": "<a data-app-btn=\"true\" href=\"about.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media5": {
             "image": {
               "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
@@ -858,1764 +579,10 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
-        },
-        {
-          "_name": "footer1",
-          "_anchor": "footer1-3",
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#06061b",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "Сделано web-студией&nbsp;<b>Amadeus</b>"
-        }
-      ]
-    },
-    "cayir.html": {
-      "settings": {
-        "title": "САУ и Р",
-        "meta_descr": "Автоматизация технологических и вспомогательных объектов газоперекачивающего агрегата",
-        "order": 3
-      },
-      "components": [
-        {
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff"
-            },
-            ".link": {
-              "font-size": "1rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.083rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#010101"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#100d19!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#171223"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#b8312f!important"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__section": {},
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            }
-          },
-          "_name": "menu",
-          "_anchor": "menu-4",
-          "_params": {
-            "bgColor": "#1b174e",
-            "fontSize": "1",
-            "fontName": {},
-            "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-320x128.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">главная</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"company.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">компания</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"company.html\">О компании</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"lic.html\">Лицензии</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">услуги</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cayir.html\" aria-expanded=\"false\">САУиР</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cap.html\" aria-expanded=\"false\">САР</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"caykc.html\" aria-expanded=\"false\">САУ КЦ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"dmpc.html\" aria-expanded=\"false\">DMPC</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">наш опыт</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Референс лист Барс Инжиниринг</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Референс лист CCS</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html#contacts3-s\">КОНТАКТЫ</a></li>"
-        },
-        {
-          "_name": "footer1",
-          "_anchor": "footer1-5",
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#06061b",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "Сделано web-студией&nbsp;<b>Amadeus</b>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header1",
-          "_styles": {
-            ".mbr-section-lead": {
-              "font-family": "'Merriweather', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700"
-            },
-            ".mbr-section-title": {
-              "font-size": "46px"
-            }
-          },
-          "_anchor": "header1-7",
-          "_params": {
-            "parallax": true,
-            "bgImageRadio": false,
-            "showArrow": false,
-            "bgImage": "file:///C:/Users/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80/AppData/Local/Mobirise.com/Mobirise/projects/project-2017-04-06_012528/assets/images/head_bg-2000x649.png",
-            "bgColor": "#a07e49",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "width": 1280,
-              "height": 720,
-              "url": "https://www.youtube.com/embed/a0yaOFwKKJ8?rel=0&amp;showinfo=0&autoplay=0&loop=0"
-            },
-            "bgVideoRadio": true,
-            "overlay": true,
-            "overlayOpacity": "0.6",
-            "overlayColor": "#000",
-            "contentAlign": "center",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
-          },
-          "title": "<br><br>Система автоматического управления и регулирования газоперекачивающими агрегатами&nbsp;",
-          "text": "<br><br>",
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-f",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "<p><b><br></b></p><p><b>САУиР</b>&nbsp;предназначена для автоматизации газоперекачивающих агрегатов и связанных с ним технологических вспомогательных объектов и  рассчитана на длительное функционирование в реальном масштабе времени в пределах установленного срока службы системы.</p><p><br></p><p><b>САУиР ГПА</b> обеспечивает информационное взаимодействие с системой высшего уровня САУ КЦ.</p><p><br></p><p>Решения, закладываемые при модернизации САУиР ГПА обеспечивают возможность обслуживающему персоналу совершенствовать и наращивать функции на дальнейших этапах эксплуатации газоперекачивающего агрегата.</p><p><br></p><p><b>САУиР ГПА  выполняет следующие основные задачи:</b></p><p><b><br></b></p><p>•\tсбор, хранение, обработку и отображение информации  от контролируемых объектов и сопрягаемых с САУиР ГПА систем, а также обеспечение доступа к данной информации пользователей;</p><p><br></p><p>•\tзащиту технологического оборудования КС от превышения области допустимых режимов работы оборудования, включая, как крайнюю меру, аварийный останов ГПА;</p><p><br></p><p>•\tподдержание режима работы ГПА по следующим параметрам: давление на выходе нагнетателя, степень сжатия ГПА, расход перекачиваемого технологического газа через ГПА;</p><p><br></p><p>•\tдистанционное ручное и автоматическое управление основным и вспомогательным оборудованием ГПА.</p><p><br></p>"
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, p": {
-              "color": "#fff"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box8",
-          "_anchor": "msg-box8-10",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1330.jpg",
-            "bgColor": "#F2F2F2",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.8",
-            "overlayColor": "#0c0028",
-            "showTitle": true,
-            "showText": true,
-            "showButton": false
-          },
-          "title": "Цели создания САУ и Р ГПА",
-          "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-11",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "<p><br></p><p><br></p><p><b>Технико-экономическими целями модернизации САУиР ГПА являются:</b></p><p><br></p><p>•\tповышение эффективности использования и увеличение наработки безопасной эксплуатации технологического оборудования;</p><p><br></p><p>•\tвнедрение микропроцессорных средств для контроля и управления ГПА на базе современных программно-технических средствах,</p><p>обеспечивающих повышение оперативности и обоснованности принимаемых решений посредством получения большего и достоверного объема информации, представляемой в кратчайший срок в удобной для пользователя форме;</p><p><br></p><p>•\tобеспечение непрерывного контроля за работой основного технологического оборудования и вспомогательных объектов ГПА, своевременного оповещения о выходе контролируемых параметров за пределы уставок;</p><p><br></p><p>•\tобеспечение надежности транспорта газа за счет сокращения простоев технологического оборудования из-за отказов системы управления и ложных срабатываний защит;</p><p><br></p><p>•\tповышение надежности работы путем использования самодиагностики аппаратных и программных средств САУ ГПА;</p><p><br></p><p>•\tуменьшение эксплуатационных затрат вследствие снижения времени аварийного простоя, своевременного выявления неисправностей;</p><p><br></p><p>•\tуменьшение материальных и энергетических затрат при ведении технологического процесса, упрощения технического обслуживания систем, сокращения среднего времени их восстановления и объемов закупок запчастей для обеспечения их работоспособности;</p><p><br></p><p>•\tулучшение качественных показателей работы ГПА за счет повышения достоверности контроля технологических параметров и точности их регулирования и стабилизации;</p><p><br></p><p>•\tсоздание архива аналоговых, дискретных параметров и состояния оборудования с быстрым доступом к данным, их автоматизированной обработкой;</p><p><br></p><p>•\tсокращение размеров, массы, энергопотребления аппаратуры оперативного управления;</p><p><br></p><p>•\tповышение общей культуры эксплуатации и обслуживания оборудования.</p>"
-        },
-        {
-          "_inherit": "content5",
-          "_styles": {
-            ".mbr-section-title, p": {
-              "text-align": "right",
-              "color": "#fff"
-            },
-            "P": {
-              "text-align": "left",
-              "font-size": "25px",
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content8",
-          "_anchor": "content8-a",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": true,
-            "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-3-2000x1333.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "width": 1280,
-              "height": 720,
-              "url": "https://www.youtube.com/embed/U7ubCyQV3WI?rel=0&amp;showinfo=0&autoplay=0&loop=0"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
-            "showTitle": true,
-            "showCaption": true
-          },
-          "title": "",
-          "caption": "<p><b>Мы разрабатываем автоматизированные комплексы для всех видов производств, в том числе относящихся к особо опасным:</b></p><p>нефтегазодобывающие предприятия;</p><p>предприятия, осуществляющих транспорт нефти и газа по трубопроводным системам.</p><p>нефтеперерабатывающие производства;&nbsp;</p><p>химические предприятия;</p><p>пищевые производства.</p>"
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            "H3": {
-              "font-size": "24px"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-c",
-          "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "1",
-            "bgColor": "#fff",
-            "showMeta": false
-          },
-          "title": "При реализации проекта ТОО «Барс Инжиниринг» проводит весь комплекс работ:<div><br></div>",
-          "meta": ""
-        },
-        {
-          "_inherit": "features4",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".card-subtitle": {
-              "color": "#bcbcbc"
-            },
-            ".iconbox": {
-              "background-color": "#2b0680",
-              "border-color": "#2b0680"
-            }
-          },
-          "_name": "features7",
-          "_anchor": "features7-b",
-          "_params": {
-            "iconsBgColor": "#2b0680",
-            "paddingTop": "1",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": 4,
-            "showImages": true,
-            "showTitles": true,
-            "showSubtitles": false,
-            "ShowTexts": true,
-            "showButtons": false
-          },
-          "media1": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "linkInNewWindow": false,
-              "name": "search",
-              "family": "et-line",
-              "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#ffffff"
-            }
-          },
-          "title1": "Тщательное обследование объекта",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "edit",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "title2": "Проектирование по стандартам РК",
-          "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "briefcase",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "title3": "Разработка программного обеспечения",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "linegraph",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "title4": "Поставка аппаратных средств и оборудования",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media5": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "linegraph",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "title5": "Trendy Website Blocks",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media6": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "linegraph",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
-        },
-        {
-          "_inherit": "features4",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".card-subtitle": {
-              "color": "#bcbcbc"
-            },
-            ".iconbox": {
-              "background-color": "#2b0680",
-              "border-color": "#2b0680"
-            }
-          },
-          "_name": "features7",
-          "_anchor": "features7-e",
-          "_params": {
-            "iconsBgColor": "#2b0680",
-            "paddingTop": 2,
-            "paddingBottom": "2",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": 4,
-            "showImages": true,
-            "showTitles": true,
-            "showSubtitles": false,
-            "ShowTexts": true,
-            "showButtons": false
-          },
-          "media1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "phone",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "title1": "Строительно - монтажные работы",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "edit",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "title2": "Пукско-наладку и ввод в эксплуатацию",
-          "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "briefcase",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "title3": "Комплексное обучение персонала заказчика",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "linegraph",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "title4": "Техническое сопровождение и обслуживание",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media5": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "linegraph",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "title5": "Trendy Website Blocks",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media6": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "linegraph",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
-        }
-      ]
-    },
-    "caykc.html": {
-      "settings": {
-        "title": "САУ КС",
-        "meta_descr": "Автоматизация технологических и вспомогательных объектов газоперекачивающего агрегата",
-        "order": 4
-      },
-      "components": [
-        {
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff"
-            },
-            ".link": {
-              "font-size": "1rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.083rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#010101"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#100d19!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#171223"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#b8312f!important"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__section": {},
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            }
-          },
-          "_name": "menu",
-          "_anchor": "menu-12",
-          "_params": {
-            "bgColor": "#1b174e",
-            "fontSize": "1",
-            "fontName": {},
-            "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-320x128.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">главная</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"company.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">компания</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"company.html\">О компании</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"lic.html\">Лицензии</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">услуги</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cayir.html\" aria-expanded=\"false\">САУиР</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cap.html\" aria-expanded=\"false\">САР</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"caykc.html\" aria-expanded=\"false\">САУ КЦ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"dmpc.html\" aria-expanded=\"false\">DMPC</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">наш опыт</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Референс лист Барс Инжиниринг</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Референс лист CCS</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html#contacts3-s\">КОНТАКТЫ</a></li>"
-        },
-        {
-          "_name": "footer1",
-          "_anchor": "footer1-13",
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#06061b",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "Сделано web-студией&nbsp;<b>Amadeus</b>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header1",
-          "_styles": {
-            ".mbr-section-lead": {
-              "font-family": "'Merriweather', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700",
-              "font-size": "36px"
-            },
-            ".mbr-section-lead SPAN": {
-              "font-size": "48px"
-            },
-            ".mbr-section-title": {
-              "font-size": "48px"
-            }
-          },
-          "_anchor": "header1-14",
-          "_params": {
-            "parallax": true,
-            "bgImageRadio": false,
-            "showArrow": false,
-            "bgImage": "file:///C:/Users/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80/AppData/Local/Mobirise.com/Mobirise/projects/project-2017-04-06_012528/assets/images/head_bg-2000x649.png",
-            "bgColor": "#a07e49",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "width": 1280,
-              "height": 720,
-              "url": "https://www.youtube.com/embed/JHRiaKEYeis?rel=0&amp;showinfo=0&autoplay=0&loop=0"
-            },
-            "bgVideoRadio": true,
-            "overlay": true,
-            "overlayOpacity": "0.6",
-            "overlayColor": "#000",
-            "contentAlign": "center",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
-          },
-          "title": "<br><br>Система автоматического управления компрессорными станциями",
-          "text": "<br><br>",
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-15",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "<p><b><br></b></p><p><b>&nbsp; &nbsp; &nbsp;Система предназначена для обеспечения непрерывного контроля технологических параметров и безаварийной работы компрессорной станции на всех режимах функционирования.&nbsp;</b></p><p><b><br></b></p><p><b>&nbsp; &nbsp; &nbsp;</b>В качестве платформы для построения систем турбоагрегатами используются программируемые логические контроллеры (ПЛК) ведущих мировых производителей: Rockwell Automation, ABB, Siemens, Stardom (Yokogawa), Honeywell..</p><p><br></p><p>&nbsp; &nbsp; &nbsp;Предлагаемые Системы САУ сертифицированы Госстандартом Республики Казахстан.&nbsp;</p><p><b><br></b></p><p><br></p>"
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, p": {
-              "color": "#fff"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box8",
-          "_anchor": "msg-box8-16",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1330.jpg",
-            "bgColor": "#F2F2F2",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.8",
-            "overlayColor": "#0c0028",
-            "showTitle": true,
-            "showText": true,
-            "showButton": false
-          },
-          "title": "В составе САУ КЦ предусматривается:",
-          "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-17",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "<p><br></p><p><br></p><p><b>В составе САУ КЦ предусматривается поставка следующего оборудования и услуг:</b></p><p><b><br></b></p><p><b>- САУ компрессорной станции (SCS),</b></p><p><b><br></b></p><p><b>- САУ системы аварийного останова (ESD).</b></p><p><b><br></b></p><p><b>- САУ пожарообнаружения и контроля загазованности (F&amp;G),</b></p><p><b><br></b></p><p><b>- ЗИП вышеперечисленных систем,</b></p><p><b><br></b></p><p><b>- лицензионное и прикладное программное обеспечение,&nbsp;</b></p><p><b><br></b></p><p><b>- инженерных работ по проектированию и внедрению САУ,</b></p><p><b><br></b></p><p><b>- монтажные работы САУ,</b></p><p><b><br></b></p><p><b>- услуги шеф-надзора и пуско-наладки САУ,</b></p><p><b><br></b></p><p><b>- услуги обучение персонала Заказчика на объекте,&nbsp;</b></p>"
-        },
-        {
-          "_inherit": "content5",
-          "_styles": {
-            ".mbr-section-title, p": {
-              "text-align": "right",
-              "color": "#fff"
-            },
-            "P": {
-              "text-align": "left",
-              "font-size": "25px",
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content8",
-          "_anchor": "content8-18",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": true,
-            "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-3-2000x1333.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "width": 1280,
-              "height": 720,
-              "url": "https://www.youtube.com/embed/U7ubCyQV3WI?rel=0&amp;showinfo=0&autoplay=0&loop=0"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
-            "showTitle": true,
-            "showCaption": true
-          },
-          "title": "",
-          "caption": "<p><b>Мы разрабатываем автоматизированные комплексы для всех видов производств, в том числе относящихся к особо опасным:</b></p><p>нефтегазодобывающие предприятия;</p><p>предприятия, осуществляющих транспорт нефти и газа по трубопроводным системам.</p><p>нефтеперерабатывающие производства;&nbsp;</p><p>химические предприятия;</p><p>пищевые производства.</p>"
-        }
-      ]
-    },
-    "cap.html": {
-      "settings": {
-        "title": "САР",
-        "meta_descr": "Регулирование паровой турбины, являющейся приводом генератора.",
-        "order": 5
-      },
-      "components": [
-        {
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff"
-            },
-            ".link": {
-              "font-size": "1rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.083rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#010101"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#100d19!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#171223"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#b8312f!important"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__section": {},
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            }
-          },
-          "_name": "menu",
-          "_anchor": "menu-1c",
-          "_params": {
-            "bgColor": "#1b174e",
-            "fontSize": "1",
-            "fontName": {},
-            "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-320x128.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">главная</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"company.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">компания</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"company.html\">О компании</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"lic.html\">Лицензии</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">услуги</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cayir.html\" aria-expanded=\"false\">САУиР</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cap.html\" aria-expanded=\"false\">САР</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"caykc.html\" aria-expanded=\"false\">САУ КЦ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"dmpc.html\" aria-expanded=\"false\">DMPC</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">наш опыт</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Референс лист Барс Инжиниринг</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Референс лист CCS</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html#contacts3-s\">КОНТАКТЫ</a></li>"
-        },
-        {
-          "_name": "footer1",
-          "_anchor": "footer1-1d",
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#06061b",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "Сделано web-студией&nbsp;<b>Amadeus</b>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header1",
-          "_styles": {
-            ".mbr-section-lead": {
-              "font-family": "'Merriweather', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700"
-            },
-            ".mbr-section-title": {
-              "font-size": "46px"
-            }
-          },
-          "_anchor": "header1-1e",
-          "_params": {
-            "parallax": true,
-            "bgImageRadio": false,
-            "showArrow": false,
-            "bgImage": "file:///C:/Users/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80/AppData/Local/Mobirise.com/Mobirise/projects/project-2017-04-06_012528/assets/images/head_bg-2000x649.png",
-            "bgColor": "#a07e49",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "width": 1280,
-              "height": 720,
-              "url": "https://www.youtube.com/embed/Yq_fVXatChk?rel=0&amp;showinfo=0&autoplay=0&loop=0"
-            },
-            "bgVideoRadio": true,
-            "overlay": true,
-            "overlayOpacity": "0.6",
-            "overlayColor": "#000",
-            "contentAlign": "center",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
-          },
-          "title": "<br><br>Система автоматического регулирования паровой турбины",
-          "text": "<br><br>",
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-1f",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "<p><b><br></b></p><p><b>Назначение и функции САР турбоагрегата.</b></p><p><b><br></b></p><p>Система предназначена для выполнения функций регулирования паровой турбины, являющейся приводом генератора.</p><p><br></p><p>САР обеспечивает:</p><p><br></p><p>•\tизмерение и постоянный контроль технологических параметров, сбор и обработку информации в контроллере, получаемой через модули ввода;</p><p>•\tавтоматическое регулирование (поддержание) заданной частоты вращения ротора турбогенератора/турбины и возможность изменения частоты вращения в режиме пуска турбогенератора/турбины;</p><p>•\tавтоматическое регулирование (поддержание) заданной электрической мощности;</p><p>•\tзащиту турбины по предельным оборотам;</p><p>•\tизменение режимов работы турбины;</p><p>•\tвыполнение нормального автоматического останова турбогенератора;</p><p>•\tвыполнение аварийного автоматического останова турбогенератора;</p><p>•\tдиагностику и самодиагностику комплекса технических средств;</p><p>•\tпредоставление возможности оператору устанавливать задание по регулируемому параметру; изменение задания и режимов работы агрегата с фиксацией действий оператора в журнале событий;</p><p>•\tпредоставление возможности осуществлять настройку параметров системы управления, регулирования и защиты со станции оператора;</p><p>•\tпроведение проверки достоверности входных сигналов и сохранение работоспособности системы при отказах датчиков. При обнаружении недостоверного входного сигнала управляющее воздействие для данного параметра замораживается на предыдущем уровне (либо включается согласованная с Заказчиком ”стратегия выживания” с оповещением оператора о возникшей неисправности).</p><p>Функции САР</p><p>САР турбины выполняет функции, которые могут быть классифицированы следующим образом:</p><p>•\tфункции регулирования и ограничения работы приводной турбины и электрогенератора;</p><p>•\tфункции защиты турбины;</p><p>•\tсервисные функции САР турбины;</p><p>•\tинформационные функции.</p><p><br></p><p><b>Функции регулирования и ограничения САР</b>:</p><p><br></p><p>•\tПри работе генератора :</p><p>\t в автономной сети - регулирование и поддержание заданной частоты вращения турбины по астатической характеристике.&nbsp;</p><p>\tобщей электросети «бесконечной мощности» - поддержания электрической (активной) мощности генератора по закону статического регулирования с заданным коэффициентом статизма;</p><p>•\tОбеспечение устойчивого поддержания частоты вращения на холостом ходу и при одиночной работе и плавного ее изменения;</p><p>•\tПоддержание давления пара в отборе;</p><p>•\tОграничение частоты вращения турбины ниже уровня настройки срабатывания автомата безопасности при мгновенном сбросе до нуля электрической нагрузки;</p><p>•\tОграничение параметров, подлежащих ограничению, включая скорость набора нагрузки и давление пара в камере отбора;</p><p>•\tАвтоматическая «разгрузка» турбины по давлению острого пара (при необходимости);</p><p>•\tАвтоматический переход с поддержания регулируемого параметра на предельное регулирование ограничиваемого параметра и автоматический возврат на поддержание регулируемого параметра после возвращения значения ограничиваемого параметра в допустимые пределы;</p><p>•\tАвтоматический переход в режим ограничения, если в режиме ручного управления один из ограничиваемых параметров достиг уставки ограничения (предотвращение ошибок оператора);</p><p>•\tОбеспечение всех допустимых режимов работы турбины (при учёте необходимых ограничений);</p><p>•\tВключение и отключение отбора пара под нагрузкой без изменения других регулируемых параметров;</p><p>•\tИспользование ПИД-алгоритмов регулирования и ограничения;</p><p>•\tОграничение темпа нагружения и разгружения турбины (игнорируемое при необходимости эффективного ограничения частоты вращения).</p><p><br></p><p><b>Функции управления и защиты САР:</b></p><p><br></p><p>•\tПрием от станционной АСУ ТП заданий по величинам регулируемых и ограничиваемых параметров по цифровым и аналоговым каналам.</p><p>•\tВыдача аварийных сигналов при превышении предельно допустимой частоты вращения и предельно допустимого давления в отборе.</p><p>•\tАвтоматизация режимов пуска и останова турбины. \"Разворот\" ротора по команде от системы автоматизации турбины с соблюдением заданных скоростей повышения частоты вращения и временных выдержек в зависимости от теплового состояния турбины. Предотвращение зависания ротора на критических частотах вращения.</p><p>•\tВыполнение при пуске следующих операций:</p><p>\tподдержание согласно Инструкции заказчика заданных частот вращения и выдержек времени при прогреве турбины,</p><p>\tбыстрый безостановочный проход зон критических частот вращения ротора, с недопущением “зависания” в этих зонах как при автоматических, так и при ручных пусках,</p><p>\tавтоматическая точная синхронизация генератора по сигналам от системы автоматизации,</p><p>\tпрерывание пуска по команде Оператора.</p><p>•\tСохранение работоспособности при отказах датчиков с автоматическим переходом в заранее заданный режим («стратегии выживания»).</p><p><br></p><p><b>Сервисные функции САР турбины:</b></p><p><br></p><p>•\tПостоянное самотестирование микропроцессорной части САР с сигнализацией места и характера выявленного отказа.</p><p>•\tДиагностика исправности входных каналов (включая полевые источники информации).</p><p>•\tДиагностика исправности модулей связи.</p><p>•\tНепрерывный контроль достоверности входных сигналов с сигнализацией их недостоверности и соответствующей маркировкой недостоверного сигнала.</p><p>•\tНепрерывный контроль выполнения команд управления, формируемых САР, с сигнализацией при их невыполнении.</p><p>•\tВозможность прямого доступа на стоящей турбине и под нагрузкой к параметрам конфигурации и настройки функциональных модулей САР;</p><p>•\tЛинеаризация статической характеристики.</p><p>•\tКонфигурирование, настройка, реконфигурирование и перенастройка САР турбоустановки на объекте внедрения с контролем уровня доступа, ограничением допустимого диапазона изменения параметров, регистрацией изменений и предотвращением несанкционированного доступа к САР турбоустановки.</p><p>•\tВозможность расширения функций САР.</p><p><br></p><p><b>Информационные функции:</b></p><p><br></p><p>•\tНепрерывное отображение оперативной информации о режимных параметрах турбоагрегата и технологическом процессе на мониторах станции оператора в виде экранов с мнемосхемами, таблицами, трендами, отображение текущих положений регулирующих органов, положений исполнительных механизмов и регулирующих органов, физических значений параметров процесса.</p><p>•\tВыдача аварийной, предупредительной и технологической сигнализации о режиме работы, параметрах режима и состоянии оборудования на станции Оператора (станции контроля и управления).</p><p>•\tКонтроль уровня доступа при выполнении различных команд управления режимом работы турбины, задаваемых на станции контроля и управления.</p><p>•\tНастройка параметров системы управления, регулирования и защиты (начало и конец шкалы, нижняя и верхняя граница предупредительной и аварийной сигнализации, настроечные параметры регуляторов) со станции оператора в простом и доступном виде, причем изменение, в случае необходимости, параметров (уставок) защиты возможно при наличии соответствующего уровня доступа к исполняемой программе контроллера Системы.</p><p>•\tСистема обладает возможностью интеграции со станционной АСУ ТП по физическим аналоговым и дискретным каналам, а также по интерфейсным цифровым каналам.</p><p>•\tОбмен информацией, при необходимости, с системами управления верхнего уровня через порты последовательной связи с использованием стандарта ОРС - Ole for Process Control.</p><p>•\tАвтоматическая регистрация в журнале событий отклонений технологических параметров от установленных границ (регламентных норм), изменений параметров работы турбоагрегата при появлении критического события.</p><p>•\tАвтоматическое формирование массивов ретроспективной информации в виде непрерывно обновляемых файлов.</p><p>•\tПросмотр трендов физических параметров агрегата во времени.</p><p>•\tПредставление, регистрация и архивирование информации о пусках, нагружениях, стационарных режимах, разгружениях и остановах.</p><p>•\tУчет наработки турбоагрегата, количество пусков и остановов;</p><p>•\tПечать журнала событий по команде оператора, возможность распечатки видеокадров экрана, базы данных, архивы в виде таблиц и трендов.</p><p>•\tАвтоматический контроль выполнения всех команд управления и регулирования, формируемых САР.</p><p>•\tАвтоматическая диагностика и самодиагностика комплекса технических средств, обнаружение неисправности отдельных функциональных узлов, модулей и блоков САР, линий связи и измерительных преобразователей.</p><p><br></p><p><br></p>"
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, p": {
-              "color": "#fff"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box8",
-          "_anchor": "msg-box8-1g",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1330.jpg",
-            "bgColor": "#F2F2F2",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.8",
-            "overlayColor": "#0c0028",
-            "showTitle": true,
-            "showText": true,
-            "showButton": false
-          },
-          "title": "Принципы работы системы САР",
-          "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-1h",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "<p><br></p><p><br></p><p><b>Основными задачами, выполняемыми САР турбоустановки, являются:</b></p><p><b><br></b></p><p>•\tрегулирование и поддержание частоты вращения паровой турбины;</p><p>•\tрегулирование и поддержание электрической (активной) мощности генератора;</p><p>•\tрегулирование и поддержание давления промежуточного отбора пара.</p><p><br></p><p>&nbsp;&nbsp;&nbsp;&nbsp;Регулятор частоты/мощности генераторной паровой турбины Power Utility Controller (PUC) компании CCS обеспечивает точное поддержание частоты вращения паровой турбины в соответствии с заданием оператора или системы верхнего уровня. Используя многоконтурный ПИД модуль, регулятор сравнивает значения, полученные от датчиков частоты вращения ротора турбины, с заданным значением скорости. Управляющее воздействие является селектором минимума выходного воздействия основного контура на регулирующий(-щие) клапан(-ы) и выходных воздействий дополнительных регулирующих контуров. Результатом работы селектора минимума является значение выходного сигнала, выдаваемого системой на регулирующий клапан.</p><p><br></p><p><b>Дополнительными регулирующими функциями являются:</b></p><p><br></p><p>•\tзащита от сброса нагрузки;</p><p>•\tавтоматический пуск;</p><p>•\tавтоматический останов;</p><p>•\tтестирование системы защиты турбины от раскрутки;</p><p>•\tтестирование регулирующих клапанов.</p><p><br></p><p>&nbsp;&nbsp;&nbsp;&nbsp;Регулятор отбора Extraction Controller (EC) компании CCS обеспечивает поддержание заданной величины давления в промежуточном отборе (отборах) пара, функционируя во взаимодействие с регулятором PUC.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;В рамках функционирования предлагаемой Системы регулирования обеспечивается реализация следующих алгоритмических блоков:</p><p>Программный модуль регулирования частоты вращения турбоагрегата регулятора PUC получает три входных сигнала по частоте вращения турбины от магнитных датчиков, установленных вблизи зубьев зубчатого колеса на вращающемся валу ротора паровой турбины. Из трех измерений модуль выбирает среднее значение в качестве входного сигнала для функционального модуля регулирования частоты вращения.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;Использование трех каналов измерения частоты вращения повышает надежность Системы, обеспечивая бесперебойную работу системы регулирования при выходе из строя одного или двух датчиков.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;При работе генератора в автономной сети усредненное значение частоты вращения и задание по ней формирует входной сигнал PUC, работающего в режиме регулятора скорости. При этом он управляет клапаном(-нами) пара на входе турбины, выходной сигнал которого реализуется через контроллер ЭМП, выполняющего функцию позиционирования золотника сервопривода регулирующего клапана.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;При работе генератора на сеть бесконечной мощности используется специальный режим статического регулирования (Droop control), обеспечивающая регулирования активной мощности генератора с учетом соответствующих коэффициентов статизма.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;Изменение типа сети (автономная или сеть бесконечной мощности) можно производить только при отключенном высоковольтном выключателе генератора.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;В алгоритмах предусмотрена возможность введения в канал измерения любого параметра программируемой зоны нечувствительности.&nbsp;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;При пуске турбины PUC включается в работу, как регулятор частоты вращения и модуль синхронизации генератора.&nbsp;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;Программный модуль регулирования частоты вращения реализует программные режимы набора оборотов (\"холодный\" и \"теплый\" пуск турбины).</p><p>&nbsp;&nbsp;&nbsp;&nbsp;Пуск турбины производится при наличии предпусковой готовности, формируемой при выполнении всех предпусковых условий, наличия разрешения на пуск.&nbsp;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;PUC автоматически переходит в режим регулятора частоты вращения по сигналу об отключении генератора от сети, что обеспечивает существенное снижение заброса частоты при этом отключении.&nbsp;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;При аварийном останове САР обеспечивает быстрое закрытие регулирующих клапанов, а также совершает необходимые действия по управлению исполнительными механизмами, находящимися под её управлением.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;В режиме ручного регулирования (дистанционное управление) задание по частоте вращения вводится оператором с интерфейса станции Оператора, либо с помощью кнопок альтернативного управления турбиной «БОЛЬШЕ» или «МЕНЬШЕ».</p><p>&nbsp;&nbsp;&nbsp;&nbsp;Входные сигналы по давлениям пара в промежуточном отборе поступают на входы соответствующих программных модулей EC – регуляторов давлений пара в отборах.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;При этом регулятор EC управляет клапаном отбора пара, выходной сигнал которого реализуется через контроллер ЭМП.</p>"
-        },
-        {
-          "_inherit": "content5",
-          "_styles": {
-            ".mbr-section-title, p": {
-              "text-align": "right",
-              "color": "#fff"
-            },
-            "P": {
-              "text-align": "left",
-              "font-size": "25px",
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content8",
-          "_anchor": "content8-1i",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": true,
-            "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-3-2000x1333.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "width": 1280,
-              "height": 720,
-              "url": "https://www.youtube.com/embed/U7ubCyQV3WI?rel=0&amp;showinfo=0&autoplay=0&loop=0"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
-            "showTitle": true,
-            "showCaption": true
-          },
-          "title": "",
-          "caption": "<p><b>Мы разрабатываем автоматизированные комплексы для всех видов производств, в том числе относящихся к особо опасным:</b></p><p>нефтегазодобывающие предприятия;</p><p>предприятия, осуществляющих транспорт нефти и газа по трубопроводным системам.</p><p>нефтеперерабатывающие производства;&nbsp;</p><p>химические предприятия;</p><p>пищевые производства.</p>"
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            "H3": {
-              "font-size": "24px"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-1j",
-          "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "1",
-            "bgColor": "#fff",
-            "showMeta": false
-          },
-          "title": "При реализации проекта ТОО «Барс Инжиниринг» проводит весь комплекс работ:<div><br></div>",
-          "meta": ""
-        },
-        {
-          "_inherit": "features4",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".card-subtitle": {
-              "color": "#bcbcbc"
-            },
-            ".iconbox": {
-              "background-color": "#2b0680",
-              "border-color": "#2b0680"
-            }
-          },
-          "_name": "features7",
-          "_anchor": "features7-1k",
-          "_params": {
-            "iconsBgColor": "#2b0680",
-            "paddingTop": "1",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": 4,
-            "showImages": true,
-            "showTitles": true,
-            "showSubtitles": false,
-            "ShowTexts": true,
-            "showButtons": false
-          },
-          "media1": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "linkInNewWindow": false,
-              "name": "search",
-              "family": "et-line",
-              "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#ffffff"
-            }
-          },
-          "title1": "Тщательное обследование объекта",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "edit",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "title2": "Проектирование по стандартам РК",
-          "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "briefcase",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "title3": "Разработка программного обеспечения",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "linegraph",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "title4": "Поставка аппаратных средств и оборудования",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media5": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "linegraph",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "title5": "Trendy Website Blocks",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media6": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "linegraph",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
-        },
-        {
-          "_inherit": "features4",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".card-subtitle": {
-              "color": "#bcbcbc"
-            },
-            ".iconbox": {
-              "background-color": "#2b0680",
-              "border-color": "#2b0680"
-            }
-          },
-          "_name": "features7",
-          "_anchor": "features7-1l",
-          "_params": {
-            "iconsBgColor": "#2b0680",
-            "paddingTop": 2,
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": 4,
-            "showImages": true,
-            "showTitles": true,
-            "showSubtitles": false,
-            "ShowTexts": true,
-            "showButtons": false
-          },
-          "media1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "phone",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "title1": "Строительно - монтажные работы",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "edit",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "title2": "Пукско-наладку и ввод в эксплуатацию",
-          "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "briefcase",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "title3": "Комплексное обучение персонала заказчика",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "linegraph",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "title4": "Техническое сопровождение и обслуживание",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media5": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "linegraph",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "title5": "Trendy Website Blocks",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media6": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "linegraph",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
-        }
-      ]
-    },
-    "dmpc.html": {
-      "settings": {
-        "title": "САР",
-        "meta_descr": "Регулирование паровой турбины, являющейся приводом генератора.",
-        "order": 6
-      },
-      "components": [
-        {
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff"
-            },
-            ".link": {
-              "font-size": "1rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.083rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#010101"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#100d19!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#171223"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#b8312f!important"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__section": {},
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            }
-          },
-          "_name": "menu",
-          "_anchor": "menu-1m",
-          "_params": {
-            "bgColor": "#1b174e",
-            "fontSize": "1",
-            "fontName": {},
-            "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-320x128.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">главная</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"company.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">компания</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"company.html\">О компании</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"lic.html\">Лицензии</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">услуги</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cayir.html\" aria-expanded=\"false\">САУиР</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cap.html\" aria-expanded=\"false\">САР</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"caykc.html\" aria-expanded=\"false\">САУ КЦ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"dmpc.html\" aria-expanded=\"false\">DMPC</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">наш опыт</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Референс лист Барс Инжиниринг</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Референс лист CCS</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html#contacts3-s\">КОНТАКТЫ</a></li>"
-        },
-        {
-          "_name": "footer1",
-          "_anchor": "footer1-1n",
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#06061b",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "Сделано web-студией&nbsp;<b>Amadeus</b>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header1",
-          "_styles": {
-            ".mbr-section-lead": {
-              "font-family": "'Merriweather', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700"
-            },
-            ".mbr-section-title": {
-              "font-size": "46px"
-            }
-          },
-          "_anchor": "header1-1o",
-          "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
-            "showArrow": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/%D0%90%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-2000x1233.jpg",
-            "bgColor": "#a07e49",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "width": 1280,
-              "height": 720,
-              "url": "https://www.youtube.com/embed/E7O_IIuA-1A?rel=0&amp;showinfo=0&autoplay=0&loop=0"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.7",
-            "overlayColor": "#0f0033",
-            "contentAlign": "center",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
-          },
-          "title": "<br><br>Оптимизация процессов для повышения производительности оборудования",
-          "text": "<br><br>",
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-1p",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "<p><b><br></b></p><p><b>Система Data Mining Process Control (DMPC)</b> использует современные, уникальные методы математического моделирования и оптимизации для решения задач улучшения эффективности непрерывных процессов, повышения производительности и срока службы установленного оборудования.</p><p><br></p><p>Для создания моделей объекта не требуется инфрмация завода- изготовителя оборудования. Поэтому система может быть использована как для новых установок, так и для модернизируемых.&nbsp;</p><p><br></p><p>С помощью сложного моделирования система DMPC определяет взаимосвязи между различными переменными агрегата и технологического процесса, которые используются для оптимизации работы оборудования и связанного с ним процесса.&nbsp;</p><p>Растущие цены на энергоносители, возростающий спрос на электроэнергию, строгие требования к чистоте выбросов заставили различные сегменты промышленности проводить мероприятия по повышению эффективности производства.&nbsp;</p><p><br></p><p><b>Назначение системы.</b></p><p><br></p><p>Подсистема оптимизации DMPC особенно важна при распределении нагрузки между совместно работающими агрегатами. Система DMPC определяет оптимальное значение задания для различных агрегатов с целью минимизирования потребляемой энергии при поддержании требуемой переменной процесса (например, давления в нагнетании станции или расхода воздуха к потребителю). Только одна эта возможность системы может увеличить эффективность работы оборудования на 4-6 процентов. Система производит расчет в реальном времени необходимого минимального количества работающих агрегатов и дает рекомендации оператору по пуску и останову компрессоров.</p><p><br></p><p>Подсистема диагностики DMPC также выполняет функции диагностирования, анализируя переменные в зависимости от времени для контроля возможной  деградации оборудования. Эта информация может быть использована при принятии решений по техническому облуживанию оборудования.&nbsp;</p><p><br></p><p>Подсистема симуляции DMPC создает наиболее оптимальный график работы оборудования в соответствии с производственным планом. Она строит эффективный график работы с учетом различных факторов: требуемый планируемый расход, нароботка оборудования и его компонентов, минимальная потребляемая электроэнергия.</p><p><br></p><p><b>Архитектура Системы</b></p><p><br></p><p>Архитектура Системы DMPC соответствует требованиям, предъявляемым к многоуровневым АСУ ТП промышленных объектов. DMPC является верхним уровнем системы управления и устанавливается на отдельно стоящий компьютер, связанный с контроллерами общей шиной с общепринятым протоколом (например, ControlNet).&nbsp;</p><p>Объемные вычислительные задачи не позволяют совмещать функции, выполняемые системой DMPC и станции оператора.</p><p>Независимые станции выполняют задачи интерфейса Системы управления с оперативным и обслуживающим персоналом.</p><p>Средний уровень Системы управления составляют контроллеры, решающие задачи регулирования, логического управления и защиты.</p><p>Нижний уровень Системы управления составляют Устройства Связи с Объектом (УСО), которые устанавливаются в центральное шасси (с центральным процессором).</p><p><span class=\"Apple-tab-span\" style=\"white-space: pre;\">\t</span></p><p><b>Точность идентификации.</b></p><p><br></p><p>Первоначальной задачей системы является построение статической модели объекта. Модуль построения модели DMPC, используя сложные генетические методы, идентифицирует объект с высокой точностью. Точность построения модели является наиболее критическим фактором для успешного решения задач оптимизации и диагностики.</p><p>Например, оптимальное распределение нагрузки снижает потребление электроэнергии на 4-6%. Подсистема диагностики определяет отклонение параметров от их базового состояния на 1-5%. Для правильного прогнозирования изменений в 1-6% точность исходного инструмента – модели - не должна быть хуже 0.5%. Уникальность системы DMPC состоит в точности производимых ее расчетов. Система позволяет добиться повышения эффективности процесса там, где традиционные методы не приносят результатов.</p><p><br></p><p><b>Построение модели.</b></p><p><br></p><p>Модуль построения модели анализирует реакцию одной непрерывной переменной в функции от одной или нескольких непрерывных независимых переменных. Количество сигналов для группы из 5 компрессоров с приводом от элктродвигателей, работающих по параллельной схеме включения составляет примерно 120 - 130. Т.е. для оптимизации распределения нагрузки между агрегатами требуется создание 120 – 130 -мерной модели станции. Модель должна отражать зависимость между сумарным расходом воздуха и электроэнергией, потребляемой агрегатами, условиями на всасе станции, условиями наружного воздуха, износа агрегатов и взаимным влиянием агрегатов.&nbsp;</p><p>Например, использование возможностей оптимизирования процесса позволяет проверить различные варианты распределения нагрузки между агрегатами с целью нахождения такого, при котором будет минимальное потребление электроэнергии при существующих внешних условиях и заданном режиме работы.</p><p>Примерное время обучения системы составляет от трех до четырех месяцев. Во время этого периода времени система собирает данные от работающего оборудования. В некоторых случаях необходимо провести тест для анализа полного рабочего диапазона.&nbsp;</p><p>В результате система создает модель, которая с заданной точностью отражает зависимости между переменными в соответствии с предписанными функциями.&nbsp;</p><p>Оценка неизвестных коэффициентов и констант производится системой автоматически. Такие переменные как состав напряжение питания, износ оборудования, коэффициенты измерителя расхода, влияние температуры и влажности наружного воздуха включены в функции модели.</p><p>После того как модель создана, можно производить диагностику оборудования  и оптимизацию работы группы компрессоров.&nbsp;</p><p>Даже при работающих приложениях Диагностики и Оптимизации система непрерывно собирает данные и корректирует модель в соответствии с поступающей информацией.</p><p><br></p><p><b>Основные компоненты системы.</b></p><p><br></p><p>Одномерный фильтр (1- D) предназначен для выработки значений сглаженного входного сигнала, используемого модулям построения модели и функцией распределения вероятностей (Probability Distribution Function (PDF)).</p><p>Алгоритм использует необработанные данные, получаемых от входных сигналов.&nbsp;</p><p><br></p><p>Многомерный фильтр (n- D) предназначен для создания многомерной функции распределения вероятностей ошибок входных сигналов, которая используется в различных модулях системы. Входами для алгоритма являются остающиеся значения, полученные от Фильтра 1-D для n независимых переменных, заданных наилучшим подмножеством алгоритма</p><p><br></p><p>Модуль компенсации переходных режимов получает дату, обработанную многомерным фильтром. В реальной системе из-за постоянного влияния возмущающих воздействий равновесного режима для построения статической модели достичь практичски не удается. Модуль компенсации переходных режимов позволяет построить статическую модель объекта по постоянно изменяющейся под воздействием возмущений динамической информации.</p><p><br></p><p>Модуль проверки корректности отбраковывает точки, которые не соответствуют значению, ожидаемому моделью. Точка с данными, выходящими за предел будет отброшена, если она находится за установленным пределом для нескольких переменных. Однако, если она находится за установленным пределом для почти всех переменных, тогда это значение наблюдения сохраняется в модели (это показывает, что технологический процесс полностью изменился).</p><p>&nbsp;</p><p>Модуль Построения Модели предназначен для представления набора алгоритмов, используемых при подборе соответствия расчетных значений к имеющимся данным.</p><p><br></p><p>Для определения зависимостей между переменными имеются различные алгоритмы. Они включают: кластерные алгоритмы, алгоритмы типа “самоорганизующаяся характеристика” (SOM), алгоритмы типа “ожидаемая максимизация” (EM), генетические алгоритмы (GA), алгоритмы типа “максимальное правдоподобие обучения скрытой модели Маркова (MLTHMM), алгоритмы типа “нейронная сеть, линейной и нелинейной корреляции и регрессии”, алгоритмы типа “факторный анализ” (FA) и алгоритмы расчитывающие в реальном времени дискретные синусоидальные преобразования (DST).&nbsp;</p><p><br></p><p>Эти алгоритмы представляют собой все классы алгоритмов. Кроме прочего, кластерные алгоритмы включают алгоритмы, имеющие к-факторы и сбаланированное итеративное редуцирование, а также кластаризацию с использованием иерархических (BIRCH) алгоритмов. Алгоритмы SOM включают нейронное моделирование, (не)контролируемые алгоритмы SOM, алгоритмы эвалюционного обучения SOM и алгоритмы обучающего векторного квантования (LVQ). Пространственная модель нелинейного состояния и расширенный сглаживающий фильтр Калмана являются примерами алгоритмов EM.</p><p><br></p><p>Генетические алгоритмы представляют собой специальную область в биостатистике и включают различные комбинации математических и статистических методов, в том числе и идеи, связанные с бесконечномерными объектами. Алгоритмы MLTHMM включают последовательные алгоритмы с убывание момента и веса и ограничение при обучении машины Больцмана.&nbsp;</p><p>Алгоритмы типа “нейронная сеть” вероятно являются наиболее широко исследованными статистическими методами, применяемыми для моделирования данных. Эти алгоритмы включают трудоемкое полное байсовское обучение (RFBLNN), цепь Маркова метода Монте-Карло (MCMC) для фиксированных и неизвестных размеров, выбор модели по методу “penalized” правдоподобия и “reversible jump simulated annealing”.&nbsp;</p><p><br></p><p>Подбор методом наименьших квадратов является наиболее широко используемым методом подбора соответствия данным и является наиболее простым методом. Другая важная группа алгоритмов относится к факторному анализу (FA). Он включает исследовательский и подтверждающий факторный анализ и статистику подбора соответствия (включая отношение хи-квадрат/степень свободы и отношение критерия согласия и скорректированных индексов критерия согласия к экономии).&nbsp;</p><p>Алгоритмы DST включают дискретные тригонометрические функции также как и дискретные алгоритмы Hartley, Фурье, ортогональные и комплекные алгоритмы Лаппеда.&nbsp;</p><p><br></p><p><br></p>"
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, p": {
-              "color": "#fff"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box8",
-          "_anchor": "msg-box8-1q",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1330.jpg",
-            "bgColor": "#F2F2F2",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.8",
-            "overlayColor": "#0c0028",
-            "showTitle": true,
-            "showText": true,
-            "showButton": false
-          },
-          "title": "Прикладные задачи DMPC",
-          "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-1r",
-          "_params": {
-            "paddingTop": "0",
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "<p><br></p><p><br></p><p><br></p><p>Подсистема Оптимизации. Входом для алгоритма является оптимизируемая функция и ограничивающие условия, представленные группой функций, которые необходимо учитывать при поиске решения. Точка оптимума находится, когда частные производные комплексной целевой функции равны нулю. Ограничивающие условия становятся частью целевой функции с помощью коэффициентов, чьи прозводные вычисляются и сочетаются с другими переменными, приводя к получению системы нелинейных уравнений, которая должна быть решена.&nbsp;</p><p><br></p><p>Разработан метод, в котором при каждой итерации производится локальная оптимизация исходной целевой функции в исходном домене. В результате получают монотонное убывание целевой функции. Исходная функция разбивается в зависимости от ограничивающих условий на мелкие части и в каждой части вычисляются частные производные и регистрируется фактическое значение реагируемой переменной. Оптимальное значение реагируемой переменной хранится вместе с приведенными величинами переменных модуля оценки. Таким образом определяются значения заданий, которые посылаются регуляторам деления нагрузки агрегатамов.&nbsp;</p><p><br></p><p>При решении задачи распределением нагрузки используется этот алгоритм. Целевой функцией является указанная выше зависимость, которую необходимо минимизировать. Ограничительными условиями являются постоянный расход воздуха и другие переменные, такие как, давление в нагнетании, а также переменные не имеющие постоянного значения, такие как потребляемая мощность и температура в нагнетании. Алгоритм оптимизации определяет значения заданий для регуляторов деления нагрузки. При этом расход агрегата рывный 0 (стоящий агрегат) также является легальным решением задачи. Т.е. задание по расходу равное 0 является рекомендацией остановить агрегат.&nbsp;</p><p><br></p><p>Подсистема диагностики предназначена для определения фактического технического состояния оборудования и обнаружения его изменения по отклонениям измеряемых параметров от их исправного состояния. При работе системы исправным (базовым) состоянием является такое техническое состояние оборудования относительно которого определяется его изменение. Отражением фактического технического состояния является определенная взаимосвязь измеряемых параметров при работе оборудования на различных эксплуатационных режимах.&nbsp;</p><p><br></p><p>&nbsp;Функции защиты от внезапно развившихся изменений технического состояния оборудования, явившиеся результатом значительных неисправностей, в основном, выполняет ситема автоматического управления агрегата. Система диагностики призвана предотвратить внезапное развитие неисправностей, прогнозируя развитие изменения характеристик оборудования и определение места развивающейся неисправности.&nbsp;</p><p><br></p><p>Система позволяет проводить техническое обслуживание по состоянию оборудования вместо планового технического обслуживания.</p><p><br></p><p>Подсистема симуляции DMPC создает наиболее оптимальный график работы оборудования в соответствии с производственным планом. Она строит эффективный график работы с учетом различных факторов: требуемый планируемый расход, нароботка оборудования и его компонентов, минимальная потребляемая электроэнергия.&nbsp;</p><p><br></p><p>Оператор задает предполагаемый расход к потребителю в следующую смену, сутки, неделю и система предлагает план работы станции в соответствии с введенными ограничениями. При этом будет выдана рекомендация, сколько агрегатов необходимо иметь в работе в каждый момент времени и какое удельное потребление электроэнергии предполагается.&nbsp;</p><p><br></p><p>Подсистема мониторинга DMPC устанавливается на том же компьютере где и основные компоненты. Она выполняет задачи интерфейса Системы DMPC с оперативным и обслуживающим персоналом. Она отображает в реальном времени дату, полученную из модели, рабочую точку на газодинамической характеристике компрессора с учетом существующих ограничений.</p><p>Подсистема мониторинга осуществляет тренд анализ накопленной информации и отображает графики – прогнозы будущей работы.</p><p><b><br></b></p><p><b><br></b></p><p><b><br></b></p>"
-        },
-        {
-          "_inherit": "content5",
-          "_styles": {
-            ".mbr-section-title, p": {
-              "text-align": "right",
-              "color": "#fff"
-            },
-            "P": {
-              "text-align": "left",
-              "font-size": "25px",
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content8",
-          "_anchor": "content8-1s",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": true,
-            "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-3-2000x1333.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "width": 1280,
-              "height": 720,
-              "url": "https://www.youtube.com/embed/U7ubCyQV3WI?rel=0&amp;showinfo=0&autoplay=0&loop=0"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
-            "showTitle": true,
-            "showCaption": true
-          },
-          "title": "",
-          "caption": "<p><b>Мы разрабатываем автоматизированные комплексы для всех видов производств, в том числе относящихся к особо опасным:</b></p><p>нефтегазодобывающие предприятия;</p><p>предприятия, осуществляющих транспорт нефти и газа по трубопроводным системам.</p><p>нефтеперерабатывающие производства;&nbsp;</p><p>химические предприятия;</p><p>пищевые производства.</p>"
-        }
-      ]
-    },
-    "company.html": {
-      "settings": {
-        "main": true,
-        "title": "Компания",
-        "meta_descr": "Автоматизация производственных процессов",
-        "header_custom": "",
-        "footer_custom": "",
-        "html_before": "",
-        "order": 7
-      },
-      "components": [
-        {
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff"
-            },
-            ".link": {
-              "font-size": "1rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.083rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#010101"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#100d19!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#171223"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#b8312f!important"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__section": {},
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            }
-          },
-          "_name": "menu",
-          "_anchor": "menu-0",
-          "_params": {
-            "bgColor": "#1b174e",
-            "fontSize": "1",
-            "fontName": {},
-            "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-265x106.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">главная</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"company.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">компания</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"company.html\">О компании</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"lic.html\">Лицензии</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">услуги</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cayir.html\" aria-expanded=\"false\">САУиР</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"cap.html\" aria-expanded=\"false\">САР</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"caykc.html\" aria-expanded=\"false\">САУ КЦ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"dmpc.html\" aria-expanded=\"false\">DMPC</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">наш опыт</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Референс лист Барс Инжиниринг</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Референс лист CCS</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html#contacts3-s\">КОНТАКТЫ</a></li>"
-        },
-        {
-          "_name": "header1",
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_anchor": "header1-1",
-          "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
-            "showArrow": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%201-2000x1125.jpg",
-            "bgColor": "#a07e49",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.7",
-            "overlayColor": "#000000",
-            "contentAlign": "center",
-            "showTitle": false,
-            "showText": true,
-            "showButtons": false
-          },
-          "title": "FULL SCREEN INTRO",
-          "text": "<span style=\"font-style: normal;\"><br></span><br><span style=\"font-style: normal;\">Компания BARS INGIENEERING является официальным торговым представителем компании Continuous Control Solutions, Inc. США (ССS) и дистрибьютором продукции ССS на территории Республики Казахстан. </span><span style=\"font-style: normal;\"><br></span><br><span style=\"font-style: normal;\">Continuous Control Solutions, Inc. (CCS), основанная в 2000 году в г. Де Мойн, США, предлагает интегрированные системы управления и оптимизации в газо/нефтетранспортной, газо/нефтеперерабатывающей, нефтехимической, химической промышленности и энергетике.</span><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a>",
-          "_styles": {
-            ".mbr-section-lead": {
-              "text-align": "left"
-            },
-            ".mbr-section-lead SPAN": {
-              "text-align": "left"
+            ".striped .mbr-cards-col:nth-child(2n+1)": {
+              "background-color": "#000000"
             }
           }
         },
@@ -2624,30 +591,253 @@
             "Theme"
           ],
           "_name": "content1",
-          "_anchor": "content1-25",
+          "_anchor": "content1-m",
           "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "2",
+            "paddingTop": 1,
+            "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<p><b>При реализации проекта ТОО «Барс Инжиниринг» проводит весь комплекс работ, включающий в себя:</b></p><p><br></p><p>•\tОбследование объекта</p><p><br></p><p>•\tПроектирование по стандартам Республики Казахстан;</p><p><br></p><p>•\tРазработку программного обеспечения;</p><p><br></p><p>•\tПоставку аппаратных средств и оборудования;</p><p><br></p><p>•\tСтроительно-монтажные работы;</p><p><br></p><p>•\tПусконаладочные работы и ввод в эксплуатацию;</p><p><br></p><p>•\tОбучение персонала заказчика;</p><p><br></p><p>•\tТехническое сопровождение и обслуживание</p><p><br></p><p><b>BARS INGIENEERING</b> provides the next generation of control technology and solutions inclusive of design implementation and commissioning of reliable, high-quality control systems for industrial TURBO MACHINERY control applications. Our systems are flexible, transparent and robust, focusing on our customer's entire process, rather than simply protecting machines, providing a true continuous control engineering solution tailored individually to each project. CCS provides turbo machinery control solutions to the Oil and Gas, Chemical. Petrochemical, Metallurgy and Power Generation Industries worldwide. Rest assured that with our patented anti-surge dual-loop (dP and Rc-based) Surge Prevention Control (for compressors) your machine will be protected and fully operational at all times.</p><p><br></p><p>We use leading third-party hardware and software products (Honeywell and Yokogawa turbo machinery control solutions and anti-surge controllers), combined with our patented algorithms to build controls to your specifications, ensuring compatibility with your current control system. You can count on our digital controls and mechanical-hydraulic modifications to increase your system's reliability and efficiency, thus reducing overall operating costs. Our corporation strives to provide you with the best and most advanced compressor controls in the world.</p><p><br></p><p><br></p><p><br></p><p><br></p>"
+          "text": "<p>Оригинальная авторская коктейльная карта заслуживает особого внимания. Например, фирменный коктейль «Манхеттен» воспроизведен по подлинному рецепту той эпохи: ржаной виски, красный вермут и ангостура. Кстати, у него есть и «спутница» – оригинальный коктейль Мей Капоне (ром, руби порто, желток, лимон, мед, биттер), названный в честь супруги культового персонажа. </p><p><br></p><p>Название каждой позиции выбрано не случайно: в карте можно найти «Синдикат», «Картель» и даже «От КГБ с любовью». Разумеется, в баре представлены и классические коктейли, большой выбор крепких напитков и ликеров, а также особая позиция «Озадачить бармена». Для ценителей пива – несколько сортов разливного, в том числе редкий миндальный эль.</p>"
         },
         {
-          "_name": "footer1",
-          "_anchor": "footer1-2",
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#06061b",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
           },
-          "text": "Сделано web-студией&nbsp;<b>Amadeus</b>"
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-k",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1502.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/Tyuw-gnEGxI?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": "0.4",
+            "overlayColor": "#000000",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false
+          },
+          "title": "Коктели",
+          "text": "<p>с секретом</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-i",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>Пространство заведения гармонично разделено на несколько зон: непосредственно бар, лаунж-залы со столиками и диванами и специальный «тайный» бар.</p><p><br></p><p>Брутальный интерьер заведения полностью отражает концепцию: кирпичная кладка, стилизованные лампы, деревянные ящики и бочки из-под виски, стулья с обивкой из натуральной грубой кожи. Атмосферу создают стильные интерьерные акценты: антикварное пианино, музыкальный автомат, саксофон, переделанный в действующий пивной кран, на стенах – настоящие пулеметы Томпсона (известные как Томми-ган), даже ручки дверей переделаны из боевых пистолетов той эпохи. Отдельно стоит сказать о больших настенных часах в баре – сделанные на заказ, они идут в обратную сторону, что отлично подчеркивает концепцию бара.</p><p><br></p><p>По выходным и четвергам играет разноплановая живая музыка: это может быть джаз, популярные cover-группы или бодрый рок-н-ролл, по пятницам и субботам за пульт встаёт диджей.&nbsp;</p><p><br></p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-e",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "showArrow": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/KRNBLQYTwz4?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": "0.6",
+            "overlayColor": "#000000",
+            "contentAlign": "center",
+            "showTitle": false,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "FULL SCREEN INTRO",
+          "text": "Для постоянных гостей действует программа лояльности, потому что здесь ценят каждого ганстера.<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
+          "_styles": {
+            ".mbr-section-lead": {
+              "font-size": "46px",
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "color": "#000000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-o",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "У нас весело",
+          "meta": ""
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery2",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 4,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/toohtoeiufw-1-2000x1345-800x538.jpg",
+                "image": "@PROJECT_PATH@/assets/images/toohtoeiufw-1-2000x1345.jpg",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1048581-2000x1334-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1048581-2000x1334.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsp-2000x1335-800x534.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsp-2000x1335.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/7q7cbcyurfs-2000x1331-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/7q7cbcyurfs-2000x1331.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-4-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mbr-4-2000x1333.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-3-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mbr-3-2000x1333.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
+                "caption": "Type caption here",
+                "active": false
+              }
+            ],
+            "spacing": 0,
+            "showText": false,
+            "filter": false,
+            "bgColor": "fff",
+            "filterBgColor": false,
+            "fullWidth": true,
+            "showBullets": true
+          },
+          "_anchor": "gallery2-n",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-p",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/pub3-2000x1124.jpg",
+            "bgColor": "#28324e",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.8",
+            "overlayColor": "#000000",
+            "googleMap": {
+              "address": "Kazakhstan, Almaty\nCity, Abay 125",
+              "placeId": "ChIJwS_1cDxpgzgR_ownrv0zpVY",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<strong>Address</strong><br>Kazakhstan, Almaty<br>\nCity, Abay 125<br><br><br>\n<strong>Contacts</strong><br>\nEmail: support@capone.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>Страницы</strong></p><ul><font color=\"#bcbcbc\"><span style=\"font-size: 14px; line-height: 25px;\"><a href=\"index.html\">О Баре</a></span></font><br><span style=\"font-size: 14px; line-height: 25px;\"><a href=\"Alcapone.html\">Al Capone</a></span><br><span style=\"font-size: 14px; line-height: 25px;\">Меню</span></ul>"
         }
       ]
     }
