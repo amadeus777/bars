@@ -245,8 +245,8 @@
           "_name": "content5",
           "_anchor": "content5-t",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "5",
+            "paddingBottom": "5",
             "bgImageRadio": true,
             "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/val-2000x852.jpg",
@@ -271,7 +271,7 @@
               "text-align": "center"
             },
             "H3": {
-              "font-size": "36px"
+              "font-size": "30px"
             }
           },
           "_tags": [
@@ -280,8 +280,8 @@
           "_name": "header3",
           "_anchor": "header3-s",
           "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
+            "paddingTop": "5",
+            "paddingBottom": "5",
             "bgColor": "#fff",
             "showMeta": true
           },
