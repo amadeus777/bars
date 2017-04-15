@@ -484,11 +484,11 @@
             "columnsColor": "#000000",
             "paddingTop": 2,
             "paddingBottom": 2,
-            "bgImageRadio": true,
+            "bgImageRadio": false,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/img-20170319-172205-2000x2000.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/img_20170319_172205-2000x2000.jpg",
+            "bgColor": "#da0800",
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
