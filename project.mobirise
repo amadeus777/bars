@@ -304,7 +304,7 @@
             "bgColor": "#28324e",
             "bgColorRadio": false,
             "overlay": true,
-            "overlayOpacity": "0",
+            "overlayOpacity": "0.8",
             "overlayColor": "#000000",
             "googleMap": {
               "address": "Kazakhstan, Almaty\nCity, Abay 125",
@@ -834,7 +834,7 @@
             "bgColor": "#28324e",
             "bgColorRadio": false,
             "overlay": true,
-            "overlayOpacity": "0",
+            "overlayOpacity": "0.8",
             "overlayColor": "#000000",
             "googleMap": {
               "address": "Kazakhstan, Almaty\nCity, Abay 125",
