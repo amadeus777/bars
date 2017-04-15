@@ -480,7 +480,15 @@ h6,
   font-family: 'Roboto Slab', serif;
   font-size: 46px;
 }
-#header1-3 .mbr-section-title {
+#content5-t .mbr-section-title,
+#content5-t p {
+  color: #fff;
+}
+#header3-s .mbr-section-title,
+#header3-s .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-s H3 {
   font-size: 36px;
 }
 

@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "NewSite-04-15_1409",
-    "currentPage": "index.html",
+    "currentPage": "Alcapone.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 28,
+    "uniqCompNum": 30,
     "versionPublish": "3.12.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
@@ -58,7 +58,7 @@
             "bgVideoRadio": false,
             "overlay": true,
             "overlayOpacity": "0.8",
-            "overlayColor": "#2b0680",
+            "overlayColor": "#000000",
             "contentAlign": "center",
             "showTitle": true,
             "showText": true,
@@ -234,38 +234,86 @@
           "text": "<p>Пространство заведения гармонично разделено на несколько зон: непосредственно бар, лаунж-залы со столиками и диванами и специальный «тайный» бар.</p><p><br></p><p>Брутальный интерьер заведения полностью отражает концепцию: кирпичная кладка, стилизованные лампы, деревянные ящики и бочки из-под виски, стулья с обивкой из натуральной грубой кожи. Атмосферу создают стильные интерьерные акценты: антикварное пианино, музыкальный автомат, саксофон, переделанный в действующий пивной кран, на стенах – настоящие пулеметы Томпсона (известные как Томми-ган), даже ручки дверей переделаны из боевых пистолетов той эпохи. Отдельно стоит сказать о больших настенных часах в баре – сделанные на заказ, они идут в обратную сторону, что отлично подчеркивает концепцию бара.</p><p><br></p><p>По выходным и четвергам играет разноплановая живая музыка: это может быть джаз, популярные cover-группы или бодрый рок-н-ролл, по пятницам и субботам за пульт встаёт диджей.&nbsp;</p><p><br></p>"
         },
         {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
           "_tags": [
             "Theme"
           ],
-          "_name": "header1",
-          "_styles": {
-            ".mbr-section-title": {
-              "font-size": "36px"
-            }
-          },
-          "_anchor": "header1-3",
+          "_name": "content5",
+          "_anchor": "content5-t",
           "_params": {
-            "parallax": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": true,
-            "showArrow": false,
+            "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/val-2000x852.jpg",
-            "bgColor": "#a07e49",
+            "bgColor": "#fff",
             "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.7",
-            "overlayColor": "#2b0680",
-            "contentAlign": "center",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "showTitle": false,
+            "showCaption": false
+          },
+          "title": "BACKGROUND IMAGE",
+          "caption": "<p>Background image with solid color overlay and parallax effect. Develop fully responsive, mobile-ready websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.</p>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-size": "36px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-s",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
           },
           "title": "Для постоянных гостей действует программа лояльности, потому что здесь ценят каждого ганстера.",
-          "text": "&nbsp;<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
+          "meta": ""
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-p",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/pub3-2000x1124.jpg",
+            "bgColor": "#28324e",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.8",
+            "overlayColor": "#000000",
+            "googleMap": {
+              "address": "Kazakhstan, Almaty\nCity, Abay 125",
+              "placeId": "ChIJwS_1cDxpgzgR_ownrv0zpVY",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<strong>Address</strong><br>Kazakhstan, Almaty<br>\nCity, Abay 125<br><br><br>\n<strong>Contacts</strong><br>\nEmail: support@capone.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>Страницы</strong></p><ul><font color=\"#bcbcbc\"><span style=\"font-size: 14px; line-height: 25px;\"><a href=\"index.html\">О Баре</a></span></font><br><span style=\"font-size: 14px; line-height: 25px;\"><a href=\"Alcapone.html\">Al Capone</a></span><br><span style=\"font-size: 14px; line-height: 25px;\"><a href=\"http://barseng.kz/menu.pdf\">Меню</a></span></ul>"
         }
       ]
     },
